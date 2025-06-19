@@ -1,0 +1,78 @@
+[
+  {
+    "file": "1 - May 19th Engineering _ STATUS Meeting.pptx",
+    "date": "May 19th",
+    "total_slides": 11,
+    "key_topics": [
+      {
+        "slide": 10,
+        "topic": "Support Needed",
+        "points": 8
+      },
+      {
+        "slide": 3,
+        "topic": "Successes",
+        "points": 11
+      },
+      {
+        "slide": 4,
+        "topic": "Successes",
+        "points": 12
+      },
+      {
+        "slide": 5,
+        "topic": "Troubles",
+        "points": 9
+      },
+      {
+        "slide": 8,
+        "topic": "Upcoming Priorities",
+        "points": 9
+      },
+      {
+        "slide": 9,
+        "topic": "Upcoming Priorities",
+        "points": 9
+      }
+    ]
+  },
+  {
+    "file": "1 - May 27th Engineering _ STATUS Meeting.pptx",
+    "date": "May 27th",
+    "total_slides": 10,
+    "key_topics": [
+      {
+        "slide": 8,
+        "topic": "Upcoming Priorities",
+        "points": 9
+      },
+      {
+        "slide": 9,
+        "topic": "Support Needed",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "file": "2- June 16th Engineering _ STATUS Meeting.pptx",
+    "date": "Unknown",
+    "total_slides": 12,
+    "key_topics": [
+      {
+        "slide": 10,
+        "topic": "Upcoming Priorities",
+        "points": 9
+      },
+      {
+        "slide": 11,
+        "topic": "Support Needed",
+        "points": 6
+      },
+      {
+        "slide": 9,
+        "topic": "Upcoming Priorities",
+        "points": 9
+      }
+    ]
+  }
+]

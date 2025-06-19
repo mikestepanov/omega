@@ -25,6 +25,22 @@ Omega is a personal automation workspace for scripts, Google Slides management, 
 2. Use conventional commits: `type(scope): description`
 3. Run `./commit.sh` for guided commits
 
+## Key Commands
+
+**Calendar & Meetings:**
+- `python3 scripts/fetch_calendar_simple.py` - Fetch latest calendar data
+- `python3 scripts/status_meeting_tracker.py` - Analyze STATUS meeting patterns
+- `python3 scripts/refresh_token.py` - Refresh Google auth token when expired
+
+**PowerPoint Processing:**
+- `python3 scripts/pptx_detailed_reader.py` - Extract content from .pptx files in docs/slides/
+- `python3 scripts/compile_presentations.py` - Create compiled markdown versions
+
+**Compiled Outputs:**
+- Individual compilations: `/docs/slides/compiled/*_compiled.md`
+- Master compilation: `/docs/slides/compiled/STATUS_MASTER_COMPILATION.md`
+- Quick reference: `/docs/slides/compiled/STATUS_QUICK_REFERENCE.md`
+
 ## Communication Style
 
 **IMPORTANT**: Check `VOCAB.md` for communication preferences. Key points:
@@ -45,3 +61,5 @@ Omega is a personal automation workspace for scripts, Google Slides management, 
 - Main branch: `main`
 - Development branch: `dev`
 - Focus areas: automation scripts, Google Slides management, workflow optimization
+- STATUS presentations stored in `/docs/slides/` as .pptx files
+- Presentations follow STATUS framework: Successes, Troubles, Actions, Tracking, Upcoming, Support
