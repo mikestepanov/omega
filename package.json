@@ -1,0 +1,18 @@
+{
+  "name": "omega",
+  "version": "1.0.0",
+  "description": "Personal automation workspace",
+  "scripts": {
+    "calendar:setup": "node scripts/calendar-setup.js",
+    "calendar:auth": "node scripts/calendar-auth-simple.js",
+    "calendar:finish": "node scripts/calendar-finish-setup.js",
+    "calendar:fetch": "node scripts/quick-fetch.js"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "dotenv": "^16.4.7",
+    "google-auth-library": "^9.15.0",
+    "googleapis": "^144.0.0",
+    "open": "^10.1.0"
+  }
+}

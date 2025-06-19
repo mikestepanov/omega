@@ -4,25 +4,44 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the Omega project repository. As of initialization, this is an empty project awaiting implementation.
+Omega is a personal automation workspace for scripts, Google Slides management, and workflow tools.
+
+## Directory Structure
+
+```
+/scripts/     - Working automation scripts and utilities
+/docs/slides/ - Google Slides documentation and templates
+/ideas/       - Brainstorming and experimental code
+```
+
+## Key Files
+
+- `VOCAB.md` - Tracks communication style and preferences (READ THIS)
+- `commit.sh` / `commit.py` - Commit helpers enforcing conventional commits
 
 ## Development Setup
 
-*To be documented as the project develops*
+1. Scripts go in `/scripts/` with descriptive names
+2. Use conventional commits: `type(scope): description`
+3. Run `./commit.sh` for guided commits
 
-## Build and Test Commands
+## Communication Style
 
-*To be documented as the project develops*
+**IMPORTANT**: Check `VOCAB.md` for communication preferences. Key points:
+- Direct answers, no fluff
+- Point out issues bluntly
+- Focus on practical solutions
+- No unnecessary praise
 
-## Architecture Overview
+## Environment
 
-*To be documented as the project develops*
+- **OS**: Windows (host) with WSL2 Ubuntu
+- **Claude Code**: Runs in WSL environment
+- **File paths**: `/mnt/c/Users/...` (accessing Windows filesystem from WSL)
+- **Python/pip**: Use WSL's Python, not Windows Python
 
 ## Notes
 
-- This repository was initialized with a single README.md file containing the project name "omega"
-- The actual project structure, technology stack, and development workflows are yet to be defined
-- This CLAUDE.md file should be updated as the project evolves to include:
-  - Specific build, test, and lint commands
-  - High-level architecture decisions
-  - Key project conventions and patterns
+- Main branch: `main`
+- Development branch: `dev`
+- Focus areas: automation scripts, Google Slides management, workflow optimization
