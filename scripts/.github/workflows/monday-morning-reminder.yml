@@ -1,0 +1,70 @@
+name: Monday Morning Pay Period Reminder
+on:
+  schedule:
+    # Run every Monday at 7 AM CST (12 PM UTC during DST, 1 PM UTC during standard time)
+    # Using 12 PM UTC which is 7 AM CST during daylight saving time
+    - cron: '0 12 * * 1'
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      test_mode:
+        description: 'Run in test mode (bypasses date check)'
+        required: false
+        default: 'false'
+
+jobs:
+  send-monday-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+      
+      - name: Check if we're in the last week of pay period
+        id: check_date
+        run: |
+          cd scripts
+          node -e "
+          const PayPeriodCalculator = require('./lib/pay-period-calculator');
+          const calc = new PayPeriodCalculator({
+            basePeriodNumber: 18,
+            basePeriodEndDate: new Date('2024-06-23'),
+            periodLengthDays: 14
+          });
+          const daysUntilEnd = calc.getDaysUntilPeriodEnd();
+          const shouldSend = daysUntilEnd >= 0 && daysUntilEnd <= 6;
+          console.log('Days until period end:', daysUntilEnd);
+          console.log('Should send reminder:', shouldSend);
+          console.log('::set-output name=should_send::' + shouldSend);
+          "
+      
+      - name: Send Monday reminder
+        if: steps.check_date.outputs.should_send == 'true' || github.event.inputs.test_mode == 'true'
+        env:
+          MESSAGING_PLATFORM: ${{ secrets.MESSAGING_PLATFORM }}
+          KIMAI_URL: ${{ secrets.KIMAI_URL }}
+          PUMBLE_API_KEY: ${{ secrets.PUMBLE_API_KEY }}
+          BOT_IDENTITY: ${{ secrets.BOT_IDENTITY }}
+          BLOODHUNTER_EMAIL: ${{ secrets.BLOODHUNTER_EMAIL }}
+          BLOODHUNTER_ID: ${{ secrets.BLOODHUNTER_ID }}
+          BLOODHUNTER_API_KEY: ${{ secrets.BLOODHUNTER_API_KEY }}
+          AGENTSMITH_EMAIL: ${{ secrets.AGENTSMITH_EMAIL }}
+          AGENTSMITH_ID: ${{ secrets.AGENTSMITH_ID }}
+          AGENTSMITH_API_KEY: ${{ secrets.AGENTSMITH_API_KEY }}
+          DEV_CHANNEL_ID: ${{ secrets.DEV_CHANNEL_ID }}
+          DESIGN_CHANNEL_ID: ${{ secrets.DESIGN_CHANNEL_ID }}
+        run: |
+          cd scripts
+          if [ "${{ github.event.inputs.test_mode }}" == "true" ]; then
+            echo "Running in test mode..."
+            node monday-reminder.js test
+          else
+            node monday-reminder.js send
+          fi

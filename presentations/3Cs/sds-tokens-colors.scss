@@ -1,0 +1,166 @@
+@mixin sds-theme-light-mode {
+  --starthub-academy-theme: light;
+
+  /* Brand */
+  --brand-primary: #0bb58d;
+  --brand-secondary: #099171;
+  --brand-tertiary: #044838;
+  --brand-quaternary: #c5f0e3;
+  --brand-fifth: #e7f8f4;
+  --brand-sixth: #71dcbc;
+
+  /* Status */
+  --status-alert: #e0301e;
+  --status-info: #8e34f4;
+  --status-warning: #fd6412;
+
+  /* Background */
+  --background-action-neutral: #f6f7f9;
+  --background-fill: #ffffff;
+  --background-main: #f8f8f8;
+  --background-notification: #262626;
+  --background-buttons-error-hover: #ffe8e8;
+  --background-buttons-error-primary: #fff5f5;
+  --background-buttons-info-hover: #f7e3ff;
+  --background-buttons-info-primary: #fcf5ff;
+  --background-buttons-warning-hover: #ffe7d0;
+  --background-buttons-warning-primary: #fff1e2;
+  --background-categories-circle: #71dcbc;
+  --background-categories-default: #e7f8f4;
+  --background-categories-pressed: #c5f0e3;
+  --background-chip-category-top: #fdccff;
+  --background-chip-category-bottom: #e5d1ff;
+  --background-chip-new-top: #bcfff5;
+  --background-chip-new-bottom: #bdffd1;
+  --background-sidebar-hover: #c5f0e3;
+  --background-sidebar-selected: #e7f8f4;
+  --background-landing-main-page: #d5f4f1;
+  --background-landing-dots: #dbdddf;
+  --background-status-admin: #e5d1ff;
+  --background-status-agent: #23996c;
+  --background-status-mentor: #e9fbff;
+  --background-status-student: #e7f8f4;
+
+  /* Input */
+  --input-default: #dbdddf;
+  --input-disabled: #e1e3e4;
+  --input-hover: #a1a2a4;
+  --input-pressed: #87898a;
+
+  /* Shadow */
+  --shadow-shadow: #12121226;
+
+  /* Stars */
+  --stars-stars: #ffb000;
+
+  /* Text */
+  --text-primary: #121212;
+  --text-secondary: #363636;
+  --text-inactive: #a1a2a4;
+  --text-muted: #757575;
+  --text-on-brand: #ffffff;
+  --text-categories-default: #121212;
+  --text-categories-hover: #0bb58d;
+  --text-categories-pressed: #099171;
+  --text-categories-selected: #099171;
+  --text-sidebar-default: #6f7072;
+  --text-sidebar-selected: #099171;
+  --text-status-admin: #6008c4;
+  --text-status-agent: #ffffff;
+  --text-status-mentor: #0068df;
+  --text-status-student: #23996c;
+  /* Text Button Colors */
+  --text-buttons-error-default: #e0301e;
+  --text-buttons-error-hover: #d21c0a;
+  --text-buttons-error-pressed: #bb1100;
+  --text-buttons-info-default: #8e34f4;
+  --text-buttons-info-hover: #7a13ee;
+  --text-buttons-info-pressed: #6008c4;
+  --text-buttons-warning-default: #fd6412;
+  --text-buttons-warning-hover: #eb5707;
+  --text-buttons-warning-pressed: #cc4d08;
+}
+
+@mixin sds-theme-dark-mode {
+  --starthub-academy-theme: dark;
+
+  /* Brand */
+  --brand-primary: #0bb58d;
+  --brand-secondary: #9ae3cd;
+  --brand-tertiary: #099171;
+  --brand-quaternary: #0bb58d;
+  --brand-fifth: #044838;
+  --brand-sixth: #30747e;
+
+  /* Status */
+  --status-alert: #e0301e;
+  --status-info: #fcf5ff;
+  --status-warning: #fd6412;
+
+  /* Background */
+  --background-action-neutral: #121212;
+  --background-fill: #121212;
+  --background-main: #363636;
+  --background-notification: #ffffff;
+  --background-buttons-error-hover: #d21c0a;
+  --background-buttons-error-primary: #bb1100;
+  --background-buttons-info-hover: #fcf5ff;
+  --background-buttons-info-primary: #6008c4;
+  --background-buttons-warning-hover: #eb5707;
+  --background-buttons-warning-primary: #cc4d08;
+  --background-categories-circle: #135a4a;
+  --background-categories-default: #044838;
+  --background-categories-pressed: #099171;
+  --background-chip-category-top: #6b1c6c;
+  --background-chip-category-bottom: #7335cc;
+  --background-chip-new-top: #23996c;
+  --background-chip-new-bottom: #1d90a1;
+  --background-sidebar-hover: #099171;
+  --background-sidebar-selected: #044838;
+  --background-landing-main-page: #30747e;
+  --background-landing-dots: #444545;
+  --background-status-admin: #e5d1ff;
+  --background-status-agent: #23996c;
+  --background-status-mentor: #e9fbff;
+  --background-status-student: #e7f8f4;
+
+  /* Input */
+  --input-default: #757575;
+  --input-disabled: #545658;
+  --input-hover: #dbdddf;
+  --input-pressed: #a1a2a4;
+
+  /* Shadow */
+  --shadow-shadow: #363636;
+
+  /* Stars */
+  --stars-stars: #ffb000;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #f1f2f3;
+  --text-inactive: #dbdddf;
+  --text-muted: #bec0c2;
+  --text-on-brand: #ffffff;
+  --text-categories-default: #c5f0e3;
+  --text-categories-hover: #54cbaf;
+  --text-categories-pressed: #f5fcfa;
+  --text-categories-selected: #9ae3cd;
+  --text-sidebar-default: #dbdddf;
+  --text-sidebar-selected: #9ae3cd;
+  --text-status-admin: #6008c4;
+  --text-status-agent: #ffffff;
+  --text-status-mentor: #0068df;
+  --text-status-student: #23996c;
+
+  /* Text Button Colors */
+  --text-buttons-error-default: #e0301e;
+  --text-buttons-error-hover: #d21c0a;
+  --text-buttons-error-pressed: #bb1100;
+  --text-buttons-info-default: #dbdddf;
+  --text-buttons-info-hover: #fcf5ff;
+  --text-buttons-info-pressed: #fcf5ff;
+  --text-buttons-warning-default: #fd6412;
+  --text-buttons-warning-hover: #ffe7d0;
+  --text-buttons-warning-pressed: #fff1e2;
+}

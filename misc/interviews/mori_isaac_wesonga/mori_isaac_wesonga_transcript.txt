@@ -1,0 +1,122 @@
+Mikhail Stepanov and Avraham Ilyayev
+Fri, May 16, 2025
+
+0:00 - Eng Mori Isaac Wesonga
+I'm good.
+
+0:00 - Unidentified Speaker
+I'm good.
+
+0:00 - Avraham Ilyayev
+How are you?
+
+0:01 - Avraham Ilyayev
+Yes, I'm great also. That's good. Very good.
+
+0:06 - Eng Mori Isaac Wesonga
+I think we're waiting for Mike here. There he is.
+
+0:14 - Unidentified Speaker
+Perfect.
+
+0:14 - Unidentified Speaker
+Oh, yeah.
+
+0:16 - Avraham Ilyayev
+Thank you. OK. Mike, would you like to introduce ENG?
+
+0:25 - Mikhail Stepanov
+Yes. Mori is good enough, right? Yes.
+
+0:30 - Unidentified Speaker
+Okay.
+
+0:31 - Mikhail Stepanov
+So Mori is our candidate for the DELPS engineering position. So at the moment, what Mori offers us is 40 hours a week. For these 40 hours, we give a bundle, two bundles essentially for 20 hours each. The first 20 hours is for essentially a quarter of percent with evaluation of $4 million. That means the current equity will be worth $10,000. And then for the other 20 hours, we offer more than $15 per hour. So this will be the current package. And of course, once we launch, once we get the bigger funding, Of course, the rate will be from 40 to 100 based, of course, on the experiments, experience, commitment, consistency, and everything else. And I guess it depends how well I would more perform here as well. That would be the idea.
+
+1:39 - Avraham Ilyayev
+Great. Very good. Mor, do you want to tell us a little bit about yourself?
+
+1:45 - Unidentified Speaker
+Yes.
+
+1:46 - Eng Mori Isaac Wesonga
+As you've seen, my name is I'm from Kenya, and I'm a DevOps and cloud architect with five years of experience in DevOps and cloud architect. But overall in software engineering, I have close to nine years. I started way back in 2016. Yeah, and I've been building solutions for cool companies like yours, and I'm glad if I'll be able to just start up, yeah, to continue the journey, yes. That's good.
+
+2:15 - Avraham Ilyayev
+That's very good. Um, what time is it there right now? Right now it's nine PM.
+
+2:22 - Unidentified Speaker
+Okay.
+
+2:22 - Avraham Ilyayev
+So there's about a seven hour difference or so. Um, okay, that's good. Uh, cool. Okay. You know about our company, you know what we do already? I'm assuming Mike has told you, uh, when education technology company, um, I'm going to keep this short, sweet and simple. The most important thing for us is three things. I like to call them the three C's, right? First C is consistency. Everything that you do here has to be consistent. It's as simple as that. You're more than welcome to take some time off just to communicate that to us. Let us know that, hey, look, I have something going on in my life right now. Family, God forbid, health, you know, work emergency. We get it, right? We're very, very flexible. What we don't tolerate is you not communicating things properly. In advance. That's what we need to establish amongst ourselves and make clear. Commitment is the second C. Commitment is extremely important. Do things that you say you'll do. So if you don't see yourself doing something that you're not capable of doing and then saying I'm capable of doing it, it makes you look bad and doesn't make you look good. Commit to things that you want to do in simplest terms and do things that you'll say you'll do. That's really it. And then we have a communication which is very very simple. Communication is we use a tool called Pumble. It's like Slack. Have you ever used Slack before?
+
+3:50 - Avraham Ilyayev
+Yes, yes, I've used Slack.
+
+3:52 - Unidentified Speaker
+So it's like Slack.
+
+3:53 - Avraham Ilyayev
+I encourage everybody to download on your phone or download on your computer. In fact, download both because sometimes you may have an emergency and you won't be able to get back in time. You can't do things in a timely manner. You make sure that you do it the right way. You communicate the right way. And that's, that's really pretty much it. You know, we have, we just, you know, if you have anything coming up or any situation or issue, just let us know. But that is really the key. You know, like it's these three C's. If you do this the right way, you're setting yourself up for success here. You break a C, you're setting yourself up for failure here.
+
+4:34 - Eng Mori Isaac Wesonga
+And it's as simple as that. And I get it, I get it.
+
+4:38 - Avraham Ilyayev
+We're not very strict. I'm more of the strict guy sometimes. Mike is more of the flexible guy. We even ourselves out very, very nicely. And sometimes we switch roles. But in reality, if you do what you're supposed to do, you're going to climb the ladders of success, the mountains of success. But if you don't, there's no place for you here. I don't want to sugarcoat anything. I'm just going to be transparent as possible. You have a chance to do a lot of great things here. And the only person that's charge of doing that is you. We can give you the tools that you need, but you're the one that steers the boat in whatever direction you want it to steer to. And that's for you. Makes sense.
+
+5:15 - Unidentified Speaker
+Yeah, it makes sense.
+
+5:17 - Eng Mori Isaac Wesonga
+Yeah, that's true. You seem like a very good individual.
+
+5:20 - Avraham Ilyayev
+You look good. You know, I think, I think as a candidate, Mike has said a lot of great things about you. You did a test task, which is nice. Uh, you dress professionally, which is what I like as well. So, that's very, very good. And you take things seriously. So, I can see us working very well together. We've been working closely with Mike. He's incredible. He's our head engineer. He's done a lot of great work for us here. And you'll be reporting to him. And if you have any questions, you need to reach me. You can always message me on Tumble. If you have any comments or concerns that you need my help on, I'm always available. I have an open door policy. So, I'm happy to help in any way that I can.
+
+6:00 - Unidentified Speaker
+Okay, no problem. Thank you.
+
+6:02 - Avraham Ilyayev
+Of course, my pleasure. Any questions, any comments, anything I can help you with?
+
+6:07 - Eng Mori Isaac Wesonga
+I only have one question.
+
+6:09 - Eng Mori Isaac Wesonga
+If I'd be mandated to attend the stand-up calls, because I think I talked to Mikey and mentioned it's around 10 a.m. Around my 6 a.m., my 6 p.m. I mean. Yeah, so I wanted to know about that also.
+
+6:27 - Mikhail Stepanov
+We'll discuss about it more in detail, but yes. So essentially, the way we're going to handle the stand-ups is we're going to have, potentially, the more our team expands, the more frequent will be the stand-ups. Of course, the first part we're going to have is every third Monday, we're going to have a big meeting with Avraham, where everyone will be there. It'll be just a summary of the previous month and the future of the next month that we're going to work on. We're going to have stand-ups additionally every Monday for the dev team. Potentially, we'll do every Wednesday and Friday as well, based on the requirements, based on the team progress. Yeah, that would be the idea. And of course, potentially, we're going to have an additional one-to-one meeting with me on Friday. I usually do it on Fridays right now. Just a regular wipe check, like, are you okay with everything? Is everything all right for your role here? Yeah, and also we have FIRES meetings, essentially. If you have some startup-related issue, non-dev specific that you want to address, you can also join there. It'll be an optional meeting, you don't have to join there if you don't have any issues, but yeah, it'll be another meeting that you potentially can attend to.
+
+8:01 - Eng Mori Isaac Wesonga
+Okay, I think it answers my question.
+
+8:04 - Avraham Ilyayev
+Perfect. Very good. Well, I don't have anything else for you. I think I've said all that I need to say. Mike, anything else?
+
+8:15 - Mikhail Stepanov
+Yeah, that's pretty much it.
+
+8:18 - Avraham Ilyayev
+Okay, that's good, very good. Cool, I think that's it. It was nice to meet you and I'm looking forward to getting you started ASAP. Yes, I'm also looking forward to it and I thank you for the opportunity.
+
+8:35 - Eng Mori Isaac Wesonga
+I won't let you down. That's great, amazing.
+
+8:39 - Avraham Ilyayev
+Well, I wish you a good rest of your day and we will talk about it a little bit.
+
+8:48 - Unidentified Speaker
+No, okay.
+
+8:49 - Avraham Ilyayev
+No problem. Cool.
+
+8:50 - Unidentified Speaker
+Thank you.
+
+8:51 - Eng Mori Isaac Wesonga
+Take care. Okay. Thank you. Okay. Bye.

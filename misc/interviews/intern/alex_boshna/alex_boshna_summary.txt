@@ -1,0 +1,41 @@
+Mike: Interview with Intern Alex Boshnakov
+Fri, Jun 6, 2025
+
+Summary:
+
+The discussion focused on Alex Boshnakov's internship application and his qualifications for a developer role. Mikhail Stepanov interviewed Alex, who indicated he could work up to 40 hours but preferred an average of 20 hours due to his master's studies in cybersecurity. Mikhail outlined the six-month internship's goal of providing valuable experience and emphasized the need for consistent scheduling and communication. Avraham Ilyayev also engaged with Alex, recognizing his programming skills, particularly in Python, and the importance of diverse backgrounds within the team.
+
+Alex clarified his Bulgarian heritage, aligning with the company's European presence. Both Mikhail and Avraham stressed the significance of commitment and timely communication, introducing Pumble as the primary communication tool. The meeting concluded with plans to send Alex a Pumble invite and a potential reevaluation of his position after the internship.
+
+
+Chapters & Topics:
+
+Interview with Intern Alex Boshnakov
+Mikhail Stepanov and Alex Boshnakov discussed the internship's structure, with Alex indicating he could work up to 40 hours but would prefer around 20 hours due to his academic commitments. Mikhail outlined the internship's focus on gaining experience and building a resume over a six-month period, while also stressing the need for consistency and open communication regarding any challenges Alex might face.
+
+Interview with Intern Alex Boshnakov
+During the interview, Alex Boshnakov shared that he graduated from Penn State and is currently working on a master's in cybersecurity. He mentioned his programming proficiency in Python, JavaScript, C++, and other languages, indicating a strong interest in enhancing his skills through the internship. Avraham Ilyayev noted that Alex's background would fit well with the company's European team culture.
+* Background and skills of the intern (Alex Boshnakov)
+
+Interview with Intern Alex Boshnakov
+Alex Boshnakov shared that he is pursuing a self-paced master's program, targeting completion by next April. Avraham Ilyayev highlighted the significance of commitment and communication in the team, introducing Pumble as their primary communication tool. Mikhail Stepanov confirmed the internship duration is six months, with a potential reevaluation based on Alex's performance.
+* Importance of consistency and communication in the internship
+* Work hours and flexibility for the intern
+* Internship duration and expectations
+
+
+Action Items:
+
+* Mikhail Stepanov will discuss with Avraham Ilyayev about the potential need to move the meeting again.
+* Mikhail Stepanov will send a Pumble invite to Alex Boshnakov soon.
+
+
+Key Questions:
+
+* What is the maximum number of hours Alex Boshnakov can dedicate to the internship?
+* What are the expectations regarding consistency and communication during the internship?
+
+
+Notepad:
+
+* No notes

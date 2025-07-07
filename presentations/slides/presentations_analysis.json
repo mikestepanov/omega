@@ -1,0 +1,195 @@
+[
+  {
+    "filename": "1 - May 19th Engineering _ STATUS Meeting.pptx",
+    "slides": [],
+    "images": [
+      "ppt/media/image1.gif",
+      "ppt/media/image6.gif",
+      "ppt/media/image5.gif",
+      "ppt/media/image9.gif",
+      "ppt/media/image3.gif",
+      "ppt/media/image4.gif",
+      "ppt/media/image8.gif",
+      "ppt/media/image2.gif",
+      "ppt/media/image7.gif"
+    ],
+    "charts": [],
+    "total_slides": 11,
+    "has_notes": true,
+    "content": [
+      {
+        "slide_number": 1,
+        "text": "Engineering STATUS Meeting May 19th, 2025"
+      },
+      {
+        "slide_number": 10,
+        "text": "Support Needed Need to find Engineering Intern There are basic, almost data-entry level work that happens from time to time. We can designate Engineering Intern for it. 2025 is rough for College Graduates, I think there will be more than a few who will work for just credits or some postgrad whole will work for just experience InfraFusion Team Dharam - backend Ariful - frontend Raheel - SEO DevOps - DevOps ShieldSpark Team Mikhail - Emotional Support Anatoly - UI Components Intern - Manual Labor Mohit - QA Automation"
+      },
+      {
+        "slide_number": 11,
+        "text": "End"
+      },
+      {
+        "slide_number": 2,
+        "text": "What does STATUS stand for? S - Successes Any Ws, wins, achievements. Any progress that has been made, big or small. T - Troubles Current roadblocks and challenges. Anything that slows down the progress on individual or team level. A - Actions Actions taken to overcome the troubles. T - Tracking Metrics, progress reports. U - Upcoming Priorities Upcoming objectives for the next month S - Support Needed Outside help required from the product team."
+      },
+      {
+        "slide_number": 3,
+        "text": "Successes Raheel Successfully onboarded to StartHub Academy Fixed bug related to the landing page header Fix issue with footer on the landing pages Ariful Successfully onboarded to StartHub Academy Tools & Templates Skeleton Logic Navigation & Routing Logic Enhancement Fixed issue with category carousel Fix card list component responsiveness Cont. on the next slide"
+      },
+      {
+        "slide_number": 4,
+        "text": "Successes Anatoly Enhancements for SDS components Cleanup initial and YDS variables Standardization of SDSIcon Reorganize and re-sync SDS variables. Dharam Successfully onboarded to StartHub Academy Fixes for the backend tests Fix Mark as Complete for the customer route Initial setup for user notifications preferences Team Massive package updates for all package.json files"
+      },
+      {
+        "slide_number": 5,
+        "text": "Troubles Mikhail We don\u2019t have images for the Goodie Bag main page We don\u2019t have full-full content for the StartHub Snacks We don\u2019t have descriptions for the Email Templates Need-to-resync Discount Deals information Need to finalize Document Templates from Graphic Design team, 0 Document Templates for the Engineering at the moment Need continuous updates in terms of Automated Tests Need self hosting support to avoid big fees for Clockify + Jira/Confluence + HR Raheel We don\u2019t information what to fill in for the meta title and description for every single landing page. We need to enable robots.txt Dev website ideally should automatically update every time dev branch is updated"
+      },
+      {
+        "slide_number": 6,
+        "text": "Actions Mori Created task in Jira to update robots.txt Created task to automatically update dev website once dev branch is updated Created tasks for self hosting Kimai (Clockify alternative) and Appflowy (Notion clone to use instead of Jira/Confluence) Intern Created task to re-sync Deals & Discounts Mohit Need to restart work on QA Automation Avraham Created Notion tasks for everything else"
+      },
+      {
+        "slide_number": 7,
+        "text": "Tracking Team We onboarded 4 new developers to our team: Ariful, Dharam, Raheel, and Mohit. Pull Requests 26 Pull Requests have been pushed this month"
+      },
+      {
+        "slide_number": 8,
+        "text": "Upcoming Priorities Raheel SEO enhancements once unblocked, landing pages once design is finalized Scenarios [some minor meaningful progress, but not expected to be fully done] Ariful 1) Frontend side of User Notification preferences with backend sync 2) Setup in-app notification view logic for customers Anatoly SDS UI Components (stronger aria support, should help SEO), potentially via shadcn/ui or just Radix UI Font Updates, once design is unblocked Cont. on the next slide"
+      },
+      {
+        "slide_number": 9,
+        "text": "Upcoming Priorities Dharam Email Handling (tied to the Notifications) Notifications: detect if user is online, add ability to adjust the notification based on that Mohit Refactor and fix majority of .skip() tests Mori Get familiar with DevOps setup Kimai installation Appflowy installation"
+      }
+    ]
+  },
+  {
+    "filename": "1 - May 27th Engineering _ STATUS Meeting.pptx",
+    "slides": [],
+    "images": [
+      "ppt/media/image10.gif",
+      "ppt/media/image1.gif",
+      "ppt/media/image6.gif",
+      "ppt/media/image5.gif",
+      "ppt/media/image9.gif",
+      "ppt/media/image3.gif",
+      "ppt/media/image4.gif",
+      "ppt/media/image8.gif",
+      "ppt/media/image2.gif",
+      "ppt/media/image7.gif"
+    ],
+    "charts": [],
+    "total_slides": 10,
+    "has_notes": true,
+    "content": [
+      {
+        "slide_number": 1,
+        "text": "StartHub ID Labs STATUS Meeting May 27th, 2025"
+      },
+      {
+        "slide_number": 10,
+        "text": "End"
+      },
+      {
+        "slide_number": 2,
+        "text": "What does STATUS stand for? S - Successes Any Ws, wins, achievements. Any progress that has been made, big or small. What did you accomplish? T - Troubles Current roadblocks and challenges. Anything that slows down the progress on individual or team level. What are you stuck on? A - Actions Actions taken to overcome the troubles. T - Tracking Metrics, progress reports. U - Upcoming Priorities Upcoming objectives for the next month. What\u2019s next for you? S - Support Needed Outside help required from the product team."
+      },
+      {
+        "slide_number": 3,
+        "text": "Manisha Successes 1) Document Templates 2) Booklet Troubles (shared with Yulia) 1) Images are bad quality 2) Vectorization of the avatars throttled Figma due to Memory limit Actions (shared with Yulia) 1) Artificially improved image quality with AI Enhancer 2) Changed vectorized avatars to pictures in the frame"
+      },
+      {
+        "slide_number": 4,
+        "text": "Muhammad Successes Font research Prototypes for Admin Dashboard Component Reorganization"
+      },
+      {
+        "slide_number": 5,
+        "text": "Yulia Successes Notifications Scenarios Admin Dashboard Flows Troubles (shared with Manisha) Images are bad quality Vectorization of the avatars throttled Figma due to Memory limit Actions (shared with Manisha) Artificially improved image quality with AI Enhancer Changed vectorized avatars to pictures in the frame"
+      },
+      {
+        "slide_number": 6,
+        "text": "Edward Successes Onboarded for StartHub Academy Email & Document Template Cards"
+      },
+      {
+        "slide_number": 7,
+        "text": "Tracking 80% of the booklet is completed 80% replaced new Raleway font family everywhere Additional 20% added new Scenarios flow"
+      },
+      {
+        "slide_number": 8,
+        "text": "Upcoming Priorities Yulia Font updates for booklet & document templates Notifications Scenarios Landing Pages Edward Booklet Intern Avatars"
+      },
+      {
+        "slide_number": 9,
+        "text": "Support Needed Need to find Design Intern Some duplicative actions that do not require investigations / brainstorming in terms of the design can be done by a Design Intern. Example: Employee Avatars"
+      }
+    ]
+  },
+  {
+    "filename": "2- June 16th Engineering _ STATUS Meeting.pptx",
+    "slides": [],
+    "images": [
+      "ppt/media/image8.jpg",
+      "ppt/media/image1.gif",
+      "ppt/media/image6.gif",
+      "ppt/media/image5.gif",
+      "ppt/media/image9.gif",
+      "ppt/media/image3.gif",
+      "ppt/media/image4.gif",
+      "ppt/media/image2.gif",
+      "ppt/media/image7.gif"
+    ],
+    "charts": [],
+    "total_slides": 12,
+    "has_notes": true,
+    "content": [
+      {
+        "slide_number": 1,
+        "text": "Engineering STATUS Meeting June 16h , 2025"
+      },
+      {
+        "slide_number": 10,
+        "text": "Upcoming Priorities Alex Resync Discount Deals information Refactor Datetime utils Dharam Agnostic E-commerce logic setup (Products, Purchases and etc.) Mohit Refactor and fix majority of .skip() tests Mori Appflowy installation"
+      },
+      {
+        "slide_number": 11,
+        "text": "Support Needed Goodie \u2026 Bag ? We don\u2019t have images for the Goodie Bag main page We don\u2019t have full content for the StartHub Snacks We don\u2019t have descriptions for the Email Templates Awaiting Document Templates from Graphic Design team SEO SEO Text Content for the SEO purposes (like title and description) for all pages"
+      },
+      {
+        "slide_number": 12,
+        "text": "End"
+      },
+      {
+        "slide_number": 2,
+        "text": "What does STATUS stand for? S - Successes Any Ws, wins, achievements. Any progress that has been made, big or small. T - Troubles Current roadblocks and challenges. Anything that slows down the progress on individual or team level. A - Actions Actions taken to overcome the troubles. T - Tracking Metrics, progress reports. U - Upcoming Priorities Upcoming objectives for the next month S - Support Needed Outside help required from the product team."
+      },
+      {
+        "slide_number": 3,
+        "text": "Raheel Upcoming Priorities from last STATUS SEO enhancements once unblocked, landing pages once design is finalized (Mike: While some progress has been done, not to the extent that we want) Scenarios [some minor meaningful progress] Successes SEO Support + SDSIcon overhaul Visual enhancements towards Founders page Partial completion for scenarios Troubles There was an issue where the viewports where different compared to the other websites Scenarios did not have appropriate variable configuration setup in the Figma Actions Reached out to Mikhail and created a meeting with Mikhail and Yulia to discuss about the enhancements for scenarios and viewports"
+      },
+      {
+        "slide_number": 4,
+        "text": "Ariful Upcoming Priorities from last STATUS Frontend side of User Notification preferences with backend sync Setup in-app notification view logic for customers Successes 1) Notification Settings UI 2) Auth redirection after authentication with Google & Password 3) Base SDSSwitch setup (common component that is used in Notifications)"
+      },
+      {
+        "slide_number": 5,
+        "text": "Anatoly Upcoming Priorities from last STATUS SDS UI Components (stronger aria support, should help SEO), potentially via shadcn/ui or just Radix UI Font Updates, once design is unblocked Successes SDS Components example via its own SDS package with complete unit testing setup Stronger Typescript support and other enhancements like variable setup Accessibility setup for SDSButton"
+      },
+      {
+        "slide_number": 6,
+        "text": "Dharam Upcoming Priorities from last STATUS Email Handling (tied to the Notifications) Notifications: detect if user is online, add ability to adjust the notification based on that Successes 1) Notifications setup for Authentication (like recovery password) 2) Detection for User\u2019s online status 3) Enhancements for the localhost\u2019s user\u2019s email verification + email handling"
+      },
+      {
+        "slide_number": 7,
+        "text": "Mori Upcoming Priorities from last STATUS Get familiar with DevOps setup Kimai installation Appflowy installation (Mike: We onboarded Mori after the meeting + Kimai issue) Successes 1) Kimai integration 2) Login via Google Auth in production 3) Get familiar with DevOps setup Troubles PHP bug was present in the public Kimai repo causing bad UX to the submitters Actions 1) On our own end I modified the PHP file that causing the issue"
+      },
+      {
+        "slide_number": 8,
+        "text": "Tracking Tracking from last STATUS Team We onboarded 4 new developers to our team: Ariful, Dharam, Raheel, and Mohit. Pull Requests 26 Pull Requests have been pushed this month This Month: Team We onboarded 2 new developers to our team: Mori and Alex Pull Requests 17 Pull Requests have been pushed this month"
+      },
+      {
+        "slide_number": 9,
+        "text": "Upcoming Priorities Raheel SEO enhancements once unblocked, landing pages once design is finalized User Availability for 1-1 Coaching Ariful 1) Fixes for recorded events 2) Carousel logic fixes Anatoly Additional SDS Component Enhancements Stronger TS Support Cont. on the next slide"
+      }
+    ]
+  }
+]
