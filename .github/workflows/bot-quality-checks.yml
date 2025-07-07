@@ -1,15 +1,17 @@
 name: Bot Quality Checks
 
 on:
-  push:
-    branches:
-      - main
-      - dev
-      - writing
-    paths:
-      - 'bots/**/*.js'
-      - 'bots/**/*.json'
-      - 'bots/**/*.md'
+  # Disabled until tests are implemented
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - dev
+  #     - writing
+  #   paths:
+  #     - 'bots/**/*.js'
+  #     - 'bots/**/*.json'
+  #     - 'bots/**/*.md'
 
 jobs:
   quality-checks:

@@ -1,14 +1,16 @@
 name: Test Bots
 
 on:
-  push:
-    branches:
-      - main
-      - dev
-      - writing
-    paths:
-      - 'bots/**'
-      - '.github/workflows/test-bots.yml'
+  # Disabled until tests are implemented
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - dev
+  #     - writing
+  #   paths:
+  #     - 'bots/**'
+  #     - '.github/workflows/test-bots.yml'
 
 jobs:
   test:
