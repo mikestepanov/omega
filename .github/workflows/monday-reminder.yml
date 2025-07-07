@@ -47,7 +47,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd bots
-        npm ci
+        npm install
     
     - name: Send 1-Hour Advance Notice to Mikhail
       env:
@@ -92,7 +92,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd bots
-        npm ci
+        npm install
     
     - name: Send Monday Reminders to Channels
       env:

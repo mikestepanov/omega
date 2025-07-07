@@ -26,11 +26,10 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
-          cache-dependency-path: './bots/package-lock.json'
 
       - name: Install dependencies
         working-directory: ./bots
-        run: npm ci
+        run: npm install
 
       - name: Check for sensitive data
         run: |
@@ -107,7 +106,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./bots
-        run: npm ci
+        run: npm install
 
       - name: Test Monday reminder date calculation
         working-directory: ./bots
