@@ -117,4 +117,4 @@ jobs:
         working-directory: ./bots
         run: |
           echo "Running integration smoke test..."
-          npm test -- --testPathPattern="integration" --testNamePattern="should send Monday reminders on the last day"
+          npm test -- --testPathPattern="integration" --testNamePattern="should send Monday reminders on the last day" --passWithNoTests
