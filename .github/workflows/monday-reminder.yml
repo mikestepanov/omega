@@ -67,6 +67,11 @@ jobs:
         # Mikhail's info
         MIKHAIL_PUMBLE_ID: ${{ secrets.MIKHAIL_PUMBLE_ID || '66908542f1798a06218c1fc5' }}
         MIKHAIL_EMAIL: ${{ secrets.MIKHAIL_EMAIL }}
+        BOT_TO_MIKHAIL_DM_CHANNEL_ID: ${{ secrets.BOT_TO_MIKHAIL_DM_CHANNEL_ID || '686860a2851f413511ab90f8' }}
+        
+        # Kimai configuration (required by config but not used for reminders)
+        KIMAI_URL: ${{ secrets.KIMAI_URL || 'https://kimai.starthub.academy' }}
+        KIMAI_API_KEY: ${{ secrets.KIMAI_API_KEY || 'dummy-key-for-reminder' }}
         
       run: |
         cd bots/monday-reminder
@@ -112,10 +117,12 @@ jobs:
         # Channel IDs (hardcoded since they don't change)
         DEV_CHANNEL_ID: ${{ secrets.DEV_CHANNEL_ID || '66934de10aeebd36fe26f468' }}
         DESIGN_CHANNEL_ID: ${{ secrets.DESIGN_CHANNEL_ID || '66b6450b791a8769092d6f89' }}
+        SPICY_CHANNEL_ID: ${{ secrets.SPICY_CHANNEL_ID || '675e6f8cfef1b9289bd46888' }}
         
         # Mikhail's info
         MIKHAIL_PUMBLE_ID: ${{ secrets.MIKHAIL_PUMBLE_ID || '66908542f1798a06218c1fc5' }}
         MIKHAIL_EMAIL: ${{ secrets.MIKHAIL_EMAIL }}
+        BOT_TO_MIKHAIL_DM_CHANNEL_ID: ${{ secrets.BOT_TO_MIKHAIL_DM_CHANNEL_ID || '686860a2851f413511ab90f8' }}
         
         # Kimai configuration (required by config but not used for reminders)
         KIMAI_URL: ${{ secrets.KIMAI_URL || 'https://kimai.starthub.academy' }}

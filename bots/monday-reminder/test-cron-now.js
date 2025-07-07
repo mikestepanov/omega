@@ -19,6 +19,7 @@ const env = {
   BOT_TO_MIKHAIL_DM_CHANNEL_ID: '686860a2851f413511ab90f8',
   DEV_CHANNEL_ID: '66934de10aeebd36fe26f468',
   DESIGN_CHANNEL_ID: '66b6450b791a8769092d6f89',
+  SPICY_CHANNEL_ID: '675e6f8cfef1b9289bd46888',
   KIMAI_URL: 'https://kimai.starthub.academy',
   KIMAI_API_KEY: 'dummy-key-for-reminder'
 };

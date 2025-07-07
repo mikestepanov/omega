@@ -47,7 +47,7 @@ For those of you that have been given extra hours, please ensure to input them i
 
 Please expect the payment to go through on the ${periodData.paymentDate}.
 
-If you have any questions or concerns, please do not hesitate to reach out to me.
+If you have any questions or concerns, please do not hesitate to reach out to Mikhail.
 
 Thank you.
 

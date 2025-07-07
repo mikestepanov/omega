@@ -101,9 +101,11 @@ Please begin to input Kimai data today (${todayFormatted}) end of day. Please no
 
     message += `\n\nPlease expect the payment to go through on the ${paymentDateFormatted}.
 
-If you have any questions or concerns, please do not hesitate to reach out to me.
+If you have any questions or concerns, please do not hesitate to reach out to Mikhail.
 
-Thank you.`;
+Thank you.
+
+@here`;
 
     return message;
   }

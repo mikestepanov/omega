@@ -76,7 +76,7 @@ class MondayReminderBot {
       });
 
       messageData.sections.push({
-        text: `If you have any questions or concerns, please do not hesitate to reach out to me.\n\nThank you.\n\n@here`
+        text: `If you have any questions or concerns, please do not hesitate to reach out to Mikhail.\n\nThank you.\n\n@here`
       });
 
       // Format message for Pumble
@@ -148,7 +148,7 @@ class MondayReminderBot {
           text: `Please expect the payment to go through on the ${periodData.paymentDate}.`
         },
         {
-          text: `If you have any questions or concerns, please do not hesitate to reach out to me.\n\nThank you.\n\n@here`
+          text: `If you have any questions or concerns, please do not hesitate to reach out to Mikhail.\n\nThank you.\n\n@here`
         }
       ]
     };
