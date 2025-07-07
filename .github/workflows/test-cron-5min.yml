@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Test Echo
+      run: |
+        echo "🔔 Test cron triggered at $(date)"
+        echo "This workflow is running!"
+        
     - name: Checkout code
       uses: actions/checkout@v3
     
