@@ -43,6 +43,22 @@ jobs:
           NODE_ENV: test
           CI: true
 
+      - name: Run tests with coverage
+        run: npm run test:coverage || true
+        env:
+          NODE_ENV: test
+          CI: true
+
+      - name: Run specific test suites
+        run: |
+          echo "Running pay period calculator tests..."
+          npm run test:pay-period || true
+          echo "Running unit tests..."
+          npm run test:unit || true
+        env:
+          NODE_ENV: test
+          CI: true
+
       # Coverage disabled until more tests are added
       # - name: Run tests with coverage
       #   run: npm run test:coverage

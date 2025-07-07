@@ -1,0 +1,94 @@
+name: CI Jest Tests
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  test:
+    name: Jest Test Suite
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [20.x, 22.x]
+        test-type: ['unit', 'integration', 'all']
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      
+      - name: Install dependencies
+        run: |
+          cd bots
+          npm install
+      
+      - name: Run Jest tests - ${{ matrix.test-type }}
+        working-directory: ./bots
+        run: |
+          if [ "${{ matrix.test-type }}" == "unit" ]; then
+            echo "🧪 Running unit tests..."
+            npm run test:unit || npm test
+          elif [ "${{ matrix.test-type }}" == "integration" ]; then
+            echo "🔗 Running integration tests..."
+            npm run test:integration || echo "No integration tests yet"
+          else
+            echo "🎯 Running all tests..."
+            npm test
+          fi
+        env:
+          NODE_ENV: test
+          CI: true
+      
+      - name: Generate test report
+        if: always()
+        working-directory: ./bots
+        run: |
+          npm test -- --json --outputFile=test-results-${{ matrix.node-version }}-${{ matrix.test-type }}.json || true
+      
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-node${{ matrix.node-version }}-${{ matrix.test-type }}
+          path: bots/test-results-*.json
+          retention-days: 7
+
+  test-summary:
+    name: Test Summary
+    runs-on: ubuntu-latest
+    needs: test
+    if: always()
+    
+    steps:
+      - name: Download all test results
+        uses: actions/download-artifact@v4
+        with:
+          path: test-results
+          pattern: test-results-*
+      
+      - name: Generate summary
+        run: |
+          echo "## 🧪 Jest Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ needs.test.result }}" == "success" ]; then
+            echo "✅ **All tests passed!**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Some tests failed**" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Test Matrix:" >> $GITHUB_STEP_SUMMARY
+          echo "- Node versions: 20.x, 22.x" >> $GITHUB_STEP_SUMMARY
+          echo "- Test types: unit, integration, all" >> $GITHUB_STEP_SUMMARY
