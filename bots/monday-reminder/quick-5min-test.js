@@ -2,6 +2,7 @@
 
 const axios = require('axios');
 const { format, addMinutes } = require('date-fns');
+const PayPeriodCalculator = require('../shared/pay-period-calculator');
 
 async function send5MinuteTest() {
   const apiKey = process.env.AGENTSMITH_API_KEY || '5d2c8b9e37f37d98f60ae4c94a311dd5';
@@ -11,56 +12,54 @@ async function send5MinuteTest() {
   const now = new Date();
   const sendTime = addMinutes(now, 5);
   
-  // This is the advance notice format
-  const message = `🔔 **Monday Reminder - 5 Minute Test**
+  // Generate the EXACT advance notice message
+  const advanceMessage = `🔔 **Monday Reminder - 1 Hour Notice**
 
-⏰ **Current Time:** ${format(now, 'h:mm a')} CST
-📅 **Message will send at:** ${format(sendTime, 'h:mm a')} CST
+Good morning! This is a friendly heads-up that Monday timesheet reminders will be sent in 1 hour.
 
-This is a test of the scheduled message system.
+⏰ **Reminders will be sent at:** 7:00 AM CST
+📍 **Target Channels:** #dev, #design  
+📋 **Type:** Monday Timesheet Reminder
 
 📊 **Pay Period Details:**
 • Period: 19
 • Dates: 6/24 - 7/7
-• Payment: Jul 14
+• Payment: July 14th
 
-_This message was scheduled at ${format(now, 'h:mm:ss a')} to send at ${format(sendTime, 'h:mm:ss a')}_`;
+_You're receiving this because you're configured as a reminder administrator._`;
 
   try {
-    console.log(`📨 Scheduling message for ${format(sendTime, 'h:mm a')} (5 minutes from now)...`);
+    console.log(`📨 Sending advance notice (what you'd get at 6 AM)...`);
     
-    // Send immediately to confirm
-    const response = await axios.post(`${serviceUrl}/sendMessage`, {
+    // Send advance notice immediately
+    await axios.post(`${serviceUrl}/sendMessage`, {
       channelId: dmChannelId,
-      text: message
+      text: advanceMessage
     }, {
       headers: { 'Api-Key': apiKey }
     });
     
-    console.log('✅ Test message sent!');
-    console.log(`Check your DM - this simulates what the cronjob would send.`);
+    console.log('✅ Advance notice sent!');
+    console.log('⏰ In 5 minutes, you\'ll get the main reminder message...');
     
-    // Set up actual cron-like behavior
-    console.log('\n⏰ Setting 5-minute timer...');
+    // Set up 5-minute timer for main message
     setTimeout(async () => {
-      const cronMessage = `⏰ **CRON TRIGGER - 5 Minutes Elapsed**
-
-This is when the actual Monday reminder would be sent to channels.
-
-Time: ${format(new Date(), 'h:mm:ss a')} CST
-
-The GitHub Actions cronjob works the same way:
-• 6 AM - Advance notice (like the first message)
-• 7 AM - Main reminders to #dev/#design`;
+      // Generate the EXACT main reminder message
+      const calculator = new PayPeriodCalculator();
+      const mainMessage = calculator.generateReminderMessage({
+        teamName: 'Team',
+        includeExtraHours: true
+      });
 
       await axios.post(`${serviceUrl}/sendMessage`, {
         channelId: dmChannelId,
-        text: cronMessage
+        text: `**[This would go to #dev and #design channels]**\n\n${mainMessage}`
       }, {
         headers: { 'Api-Key': apiKey }
       });
       
-      console.log('\n✅ 5-minute timer triggered! Check your DM.');
+      console.log('\n✅ Main reminder sent! (This is what channels would receive at 7 AM)');
+      process.exit(0);
     }, 5 * 60 * 1000); // 5 minutes
     
     console.log('Timer is running... (press Ctrl+C to cancel)');

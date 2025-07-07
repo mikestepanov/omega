@@ -1,16 +1,15 @@
 name: Test Bots
 
 on:
-  # Disabled until tests are implemented
+  push:
+    branches:
+      - main
+      - dev
+      - writing
+    paths:
+      - 'bots/**'
+      - '.github/workflows/test-bots.yml'
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
-  #     - dev
-  #     - writing
-  #   paths:
-  #     - 'bots/**'
-  #     - '.github/workflows/test-bots.yml'
 
 jobs:
   test:
@@ -48,37 +47,21 @@ jobs:
           NODE_ENV: test
           CI: true
 
-      - name: Run tests with coverage
-        run: npm run test:coverage
-        env:
-          NODE_ENV: test
-          CI: true
+      # Coverage disabled until more tests are added
+      # - name: Run tests with coverage
+      #   run: npm run test:coverage
+      #   env:
+      #     NODE_ENV: test
+      #     CI: true
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
-        with:
-          directory: ./bots/coverage
-          flags: bots
-          name: bots-coverage
-          fail_ci_if_error: false
-
-      - name: Archive test results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-results-${{ matrix.node-version }}
-          path: |
-            bots/coverage/
-            bots/test-results/
-          retention-days: 7
-
-      - name: Archive coverage report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: coverage-report-${{ matrix.node-version }}
-          path: bots/coverage/lcov-report/
-          retention-days: 7
+      # Coverage steps disabled until more tests are added
+      # - name: Upload coverage to Codecov
+      #   uses: codecov/codecov-action@v3
+      #   with:
+      #     directory: ./bots/coverage
+      #     flags: bots
+      #     name: bots-coverage
+      #     fail_ci_if_error: false
 
   test-summary:
     name: Test Summary
