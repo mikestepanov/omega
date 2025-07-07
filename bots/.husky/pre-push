@@ -7,8 +7,8 @@ echo "🧪 Running bot tests before push..."
 cd bots
 
 # Run quick smoke tests
-npm run test:pay-period -- --testNamePattern="should calculate current period correctly|should identify last day of period correctly" || {
-    echo "❌ Pay period tests failed!"
+npm test || {
+    echo "❌ Tests failed!"
     exit 1
 }
 

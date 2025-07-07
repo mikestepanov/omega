@@ -2,13 +2,13 @@ name: Monday Pay Period Reminder
 
 on:
   schedule:
-    # Run every Monday at 6 AM CST (11 AM UTC during DST, 12 PM UTC during standard time)
+    # Run every Monday at 7 AM CST (12 PM UTC during DST, 1 PM UTC during standard time)
     # This sends the 1-hour advance notice to Mikhail
-    - cron: '0 11 * * 1'
-    
-    # Run every Monday at 7 AM CST (12 PM UTC during DST, 1 PM UTC during standard time)  
-    # This sends the main reminders to channels
     - cron: '0 12 * * 1'
+    
+    # Run every Monday at 8 AM CST (1 PM UTC during DST, 2 PM UTC during standard time)  
+    # This sends the main reminders to channels
+    - cron: '0 13 * * 1'
     
   workflow_dispatch:
     inputs:
@@ -29,9 +29,9 @@ on:
 
 jobs:
   send-advance-notice:
-    # Run at 6 AM or when manually triggered
+    # Run at 7 AM or when manually triggered
     if: |
-      (github.event_name == 'schedule' && contains(github.event.schedule, '0 11')) ||
+      (github.event_name == 'schedule' && contains(github.event.schedule, '0 12')) ||
       (github.event_name == 'workflow_dispatch' && (github.event.inputs.action == 'both' || github.event.inputs.action == 'advance-only'))
     runs-on: ubuntu-latest
     
@@ -42,12 +42,12 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: '22'
     
     - name: Install dependencies
       run: |
         cd bots
-        npm ci
+        npm install
     
     - name: Send 1-Hour Advance Notice to Mikhail
       env:
@@ -74,9 +74,9 @@ jobs:
         node monday-reminder.js advance
 
   send-main-reminders:
-    # Run at 7 AM or when manually triggered
+    # Run at 8 AM or when manually triggered
     if: |
-      (github.event_name == 'schedule' && contains(github.event.schedule, '0 12')) ||
+      (github.event_name == 'schedule' && contains(github.event.schedule, '0 13')) ||
       (github.event_name == 'workflow_dispatch' && (github.event.inputs.action == 'both' || github.event.inputs.action == 'main-only'))
     runs-on: ubuntu-latest
     
@@ -87,12 +87,12 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: '22'
     
     - name: Install dependencies
       run: |
         cd bots
-        npm ci
+        npm install
     
     - name: Send Monday Reminders to Channels
       env:

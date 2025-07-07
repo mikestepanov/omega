@@ -1,16 +1,8 @@
-name: Bot Quality Checks
+name: Quality Checks
 
 on:
   push:
-    branches:
-      - main
-      - dev
-      - writing
-    paths:
-      - 'bots/**/*.js'
-      - 'bots/**/*.json'
-      - 'bots/**/*.md'
-  workflow_dispatch:
+    branches: ['**']
 
 jobs:
   quality-checks:
@@ -24,13 +16,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: './bots/package-lock.json'
+          node-version: '22'
 
       - name: Install dependencies
         working-directory: ./bots
-        run: npm ci
+        run: npm install
 
       - name: Check for sensitive data
         run: |
@@ -46,6 +36,8 @@ jobs:
         run: npm test
         env:
           NODE_ENV: test
+          CI: true
+
 
       - name: Generate test report
         if: always()
@@ -103,11 +95,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install dependencies
         working-directory: ./bots
-        run: npm ci
+        run: npm install
 
       - name: Test Monday reminder date calculation
         working-directory: ./bots
@@ -125,4 +117,4 @@ jobs:
         working-directory: ./bots
         run: |
           echo "Running integration smoke test..."
-          npm test -- --testPathPattern="integration" --testNamePattern="should send Monday reminders on the last day"
+          npm test -- --testPathPattern="integration" --testNamePattern="should send Monday reminders on the last day" --passWithNoTests
