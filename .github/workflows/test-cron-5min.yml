@@ -2,8 +2,8 @@ name: Test Cron 5 Minutes
 
 on:
   schedule:
-    # Run at 7:45 AM CST (12:45 PM UTC)
-    - cron: '45 12 * * *'
+    # Run at 7:58 AM CST (12:58 PM UTC)
+    - cron: '58 12 * * *'
     
   workflow_dispatch:
 
