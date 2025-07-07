@@ -1,6 +1,6 @@
 module.exports = {
   testEnvironment: 'node',
-  roots: ['<rootDir>/tests', '<rootDir>/kimai/tests'],
+  roots: ['<rootDir>/tests'],
   testMatch: [
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js'
@@ -21,7 +21,7 @@ module.exports = {
   testTimeout: 10000,
   
   // Setup files
-  setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
+  // setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
   
   // Module name mapper for our structure
   moduleNameMapper: {

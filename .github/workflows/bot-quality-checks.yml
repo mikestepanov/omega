@@ -10,6 +10,7 @@ on:
       - 'bots/**/*.js'
       - 'bots/**/*.json'
       - 'bots/**/*.md'
+  workflow_dispatch:
 
 jobs:
   quality-checks:
@@ -40,27 +41,9 @@ jobs:
           fi
           echo "✅ No exposed API keys found"
 
-      - name: Run unit tests
+      - name: Run tests
         working-directory: ./bots
-        run: npm run test:unit
-        env:
-          NODE_ENV: test
-
-      - name: Run pay period tests specifically
-        working-directory: ./bots
-        run: npm run test:pay-period
-        env:
-          NODE_ENV: test
-
-      - name: Run Monday reminder tests
-        working-directory: ./bots
-        run: npm run test:monday
-        env:
-          NODE_ENV: test
-
-      - name: Run resilient sender tests
-        working-directory: ./bots
-        run: npm run test:resilient
+        run: npm test
         env:
           NODE_ENV: test
 
