@@ -1,0 +1,41 @@
+name: Test Cron - 5 Minutes
+
+on:
+  schedule:
+    # Run at 12:15 AM CST (5:15 AM UTC)
+    - cron: '15 5 * * *'
+    
+  workflow_dispatch:
+
+jobs:
+  test-reminder:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      run: |
+        cd bots
+        npm ci
+    
+    - name: Send Test Reminder to Mikhail DM
+      env:
+        BOT_IDENTITY: agentsmith
+        BOT_NAME: Agent Smith
+        MESSAGING_PLATFORM: pumble
+        PUMBLE_API_KEY: ${{ secrets.PUMBLE_API_KEY }}
+        BOT_TO_MIKHAIL_DM_CHANNEL_ID: ${{ secrets.BOT_TO_MIKHAIL_DM_CHANNEL_ID || '686860a2851f413511ab90f8' }}
+        KIMAI_URL: https://kimai.starthub.academy
+        KIMAI_API_KEY: dummy-key-for-reminder
+        
+      run: |
+        cd bots/monday-reminder
+        echo "🔔 Running 5-minute test cron job..."
+        node monday-reminder.js test-preview
