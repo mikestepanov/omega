@@ -32,6 +32,8 @@ Omega is a personal automation workspace for scripts, Google Slides management, 
   
 /scripts/         - Remaining utility scripts
 /ideas/           - Brainstorming and experimental code
+/docs/            - Documentation and templates
+  /slides/        - Google Slides documentation and templates
 ```
 
 ## Key Files
@@ -48,6 +50,7 @@ Omega is a personal automation workspace for scripts, Google Slides management, 
 ## Key Commands
 
 **Calendar & Meetings:**
+<<<<<<< HEAD
 - `python3 misc/fetch_calendar_simple.py` - Fetch latest calendar data
 - `python3 presentations/status_meeting_tracker.py` - Analyze STATUS meeting patterns
 - `python3 misc/refresh_token.py` - Refresh Google auth token when expired
@@ -65,6 +68,20 @@ Omega is a personal automation workspace for scripts, Google Slides management, 
 - `node bots/kimai-extract-timesheets.js` - Extract Kimai timesheets
 - `node bots/monday-reminder.js` - Send Monday reminders
 - `./bots/start_discord_bot.sh` - Start Discord bot
+=======
+- `python3 scripts/fetch_calendar_simple.py` - Fetch latest calendar data
+- `python3 scripts/status_meeting_tracker.py` - Analyze STATUS meeting patterns
+- `python3 scripts/refresh_token.py` - Refresh Google auth token when expired
+
+**PowerPoint Processing:**
+- `python3 scripts/pptx_detailed_reader.py` - Extract content from .pptx files in docs/slides/
+- `python3 scripts/compile_presentations.py` - Create compiled markdown versions
+
+**Compiled Outputs:**
+- Individual compilations: `/docs/slides/compiled/*_compiled.md`
+- Master compilation: `/docs/slides/compiled/STATUS_MASTER_COMPILATION.md`
+- Quick reference: `/docs/slides/compiled/STATUS_QUICK_REFERENCE.md`
+>>>>>>> 432385d2c3f9ee703a489c477e231daae70d0466
 
 ## Communication Style
 
@@ -86,6 +103,11 @@ Omega is a personal automation workspace for scripts, Google Slides management, 
 - Main branch: `main`
 - Development branch: `dev`
 - Focus areas: automation scripts, Google Slides management, workflow optimization
+<<<<<<< HEAD
 - STATUS presentations stored in `/presentations/slides/` as .pptx files
 - Presentations follow STATUS framework: Successes, Troubles, Actions, Tracking, Upcoming, Support
 - Project has been reorganized into 4 main folders: presentations, bots, misc, courses
+=======
+- STATUS presentations stored in `/docs/slides/` as .pptx files
+- Presentations follow STATUS framework: Successes, Troubles, Actions, Tracking, Upcoming, Support
+>>>>>>> 432385d2c3f9ee703a489c477e231daae70d0466
