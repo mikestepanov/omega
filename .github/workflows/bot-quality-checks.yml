@@ -3,10 +3,6 @@ name: Bot Quality Checks
 on:
   push:
     branches:
-      - main
-      - dev
-      - writing
-      - workflow
       - '**'  # Run on all branches
     paths:
       - 'bots/**/*.js'
