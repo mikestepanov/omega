@@ -10,6 +10,10 @@ on:
     # This sends the main reminders to channels
     - cron: '0 13 * * 1'
     
+    # Run every Monday at 8:30 AM CST (1:30 PM UTC during DST, 2:30 PM UTC during standard time)
+    # Additional reminder time
+    - cron: '30 13 * * 1'
+    
   workflow_dispatch:
     inputs:
       test_mode:
@@ -74,9 +78,9 @@ jobs:
         node monday-reminder.js advance
 
   send-main-reminders:
-    # Run at 8 AM or when manually triggered
+    # Run at 8 AM or 8:30 AM or when manually triggered
     if: |
-      (github.event_name == 'schedule' && contains(github.event.schedule, '0 13')) ||
+      (github.event_name == 'schedule' && (contains(github.event.schedule, '0 13') || contains(github.event.schedule, '30 13'))) ||
       (github.event_name == 'workflow_dispatch' && (github.event.inputs.action == 'both' || github.event.inputs.action == 'main-only'))
     runs-on: ubuntu-latest
     
