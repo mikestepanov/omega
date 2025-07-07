@@ -1,0 +1,95 @@
+name: Test Bots
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+      - writing
+    paths:
+      - 'bots/**'
+      - '.github/workflows/test-bots.yml'
+
+jobs:
+  test:
+    name: Run Bot Tests
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./bots
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          cache-dependency-path: './bots/package-lock.json'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linter (if exists)
+        run: npm run lint --if-present
+
+      - name: Run tests
+        run: npm test
+        env:
+          NODE_ENV: test
+          CI: true
+
+      - name: Run tests with coverage
+        run: npm run test:coverage
+        env:
+          NODE_ENV: test
+          CI: true
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          directory: ./bots/coverage
+          flags: bots
+          name: bots-coverage
+          fail_ci_if_error: false
+
+      - name: Archive test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-${{ matrix.node-version }}
+          path: |
+            bots/coverage/
+            bots/test-results/
+          retention-days: 7
+
+      - name: Archive coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report-${{ matrix.node-version }}
+          path: bots/coverage/lcov-report/
+          retention-days: 7
+
+  test-summary:
+    name: Test Summary
+    runs-on: ubuntu-latest
+    needs: test
+    if: always()
+    
+    steps:
+      - name: Check test results
+        run: |
+          if [ "${{ needs.test.result }}" == "success" ]; then
+            echo "✅ All bot tests passed!"
+          else
+            echo "❌ Bot tests failed!"
+            exit 1
+          fi

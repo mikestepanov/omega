@@ -1,0 +1,119 @@
+Mike: Interview with Intern Hamin (Lexi) Lee
+Fri, Jun 6, 2025
+
+0:00 - Hamin Lee
+a summer session going on for the first two month of summer. So one and a half month. So right now I would say 30 hours. Okay. Yeah. That's, I think it's a good start.
+
+0:16 - Mikhail Stepanov
+Okay. Um, that should, uh, yeah. Yeah. The primary, of course the primary part that you will be focusing on to Slack learning from our more senior designers, how, like, properly, for example, do research, properly do the design parts in Figma, for example, right? That would be the idea. OK. Cool. What else? So essentially, right, StarHub, essentially, how we're going to communicate is via the Pumble. It's basically a Slack clone, right? And essentially, we have like pillars where we essentially try to stand on. So one of them is communication, right? So if you get stuck, don't wait for the meeting, right? Just ahead of time, right? So that, hey, I'm stuck here and here. How can I get resolved, right, in this situation? Also is commitment, right? Of course, in your case, we don't need to really be super consistent, because in turn, you have other more important priorities, such as learning now. You're still in college, right? So that will be your highest priority. But yeah, essentially, try to stay committed in terms of meetings, for example. So if you're going to miss the meetings, just tell us ahead of time. Just don't tell us like five minutes before the start of the meeting, you will not be present, right? Yeah, that's pretty much it. And so the idea would be, ideally, at least for our employees, it's three hours before the meeting starts, right? To inform us ahead of time that you will not be present. Yeah, that's pretty much it. So for design, as I told you, we use Figma. For communication right now, we use, for the ticketing system, we use Jira, but we're trying to switch to AppFlowy, because basically it's going to be self-hosted. The idea would be it's essentially free of charge for us, because it's basically going to be self-hosted. Yeah, that's pretty much it. Have any questions for me? At the moment?
+
+2:44 - Hamin Lee
+Let's see. Oh, like I was just wondering what kind of projects I would be involved in.
+
+2:54 - Mikhail Stepanov
+Okay, so the idea is, let me share my screen actually. I can show you. Okay, so the idea would be just doing like a figma. So essentially, I'm just going to work on top of this session with our designers. You'll go over the items of our product. So basically, StartHub stands on courses where a mentor can essentially compile all of the videos in one place, live workshops and record events. Essentially, a live workshop is like a live event. Recorded events essentially just going to be a mix of courses and live lectures, basically previous works that we're going to see in videos. Document templates. So tools and templates are separated into two items, document templates and email templates. Document templates is essentially a template where you can just fill in the information. Email template looks like this, where you should be able to see email template why should you use this email template and how you should use it on the right side, right? That's the idea. And essentially, we also have discount deals. Discount deals is basically for users, for customers to sign up with discount deal for the purchases, right? I believe like half of the deals is for the student, sorry, for the student, yeah, to like, get like discount for some of them. It's for us just to get the affiliate link, right? We also have coaching in the future. We didn't finalize it yet, but we are on the road for it. One-to-one coaching, the mentors should be able to have communication with students and be able to get paid for it, right? So that's the idea that we're going to work on.
+
+5:03 - Hamin Lee
+I see.
+
+5:06 - Unidentified Speaker
+OK.
+
+5:07 - Mikhail Stepanov
+Sounds good to me. Let me see if...
+
+5:14 - Unidentified Speaker
+OK.
+
+5:14 - Mikhail Stepanov
+Avraham is not joining just yet. Yeah, he's still busy.
+
+5:23 - Unidentified Speaker
+Yeah.
+
+5:23 - Unidentified Speaker
+OK.
+
+5:24 - Mikhail Stepanov
+Pretty much. What else to talk to you about? So for our team size, essentially, for the design team, we have our Ulay, who is our lead designer. We also have, essentially, Edward. He's our graphic slash UI UX design. So you might be able to ask questions for him if you want to. Yeah, that's the idea. Yeah, that's pretty much it. In terms of the dev, we have a team of six people, right? Yeah, that's pretty much it. Okay. Yeah, he's just basically going to ask you short questions, essentially. How are you doing? Tell me about yourself, right? Yeah, that's pretty much it. Let me see. Okay. I have to call myself in five minutes, but yeah. Essentially, he should be able to join soon. And if I will be gone, that's okay. He'll just explain the rest. There shouldn't be much else to discuss. Yes. Okay. Okay. Hello.
+
+7:04 - Hamin Lee
+How are you?
+
+7:05 - Avraham Ilyayev
+I'm good.
+
+7:07 - Hamin Lee
+How are you?
+
+7:08 - Unidentified Speaker
+I'm good.
+
+7:09 - Avraham Ilyayev
+Nice to meet you.
+
+7:12 - Hamin Lee
+Nice to meet you.
+
+7:14 - Hamin Lee
+Thank you. I'm good. I'm in UCSD right now and it's final season. So I'm just grinding for my finals.
+
+7:25 - Avraham Ilyayev
+Yeah. Remember those days, those days were never easy. But I'm happy to hear that as well. Where are you based in?
+
+7:33 - Unidentified Speaker
+I'm in San Diego.
+
+7:35 - Avraham Ilyayev
+San Diego. Gotcha. And you live there or you're just there for school?
+
+7:39 - Unidentified Speaker
+I live here.
+
+7:40 - Avraham Ilyayev
+Gotcha. Okay, cool. Awesome. Mike, I believe is totally a little bit of a company and kind of what we're doing as well as just the internet. You're coming in, Mike. I'm not Do you have any experience in UI UX or graphic design or anything of that nature?
+
+8:03 - Hamin Lee
+Yes. So for UI UX design, my major is Cognitive Science Design and Interaction. So I've been taking coursework like upper div starting from freshman year. So I've done class products such as like making an app And we have to came up with our prototype and then we did UI UX research. And then I'll say like the professional experience I have is that recently this year, January, I joined a club called Design for America. And that's like a national design club. And it has like different chapters in different college. And I joined the UCSD chapter and I was able to work with like a non-profit an organization and basically they wanted to make redesign their websites so I worked as a team to rebuild their website and basically fulfill what our clients or the stakeholder want and then we had a showcase few days ago about about that, yes.
+
+9:14 - Unidentified Speaker
+It's awesome.
+
+9:15 - Unidentified Speaker
+It's good to hear.
+
+9:17 - Unidentified Speaker
+So it seems you do have experience in that.
+
+9:21 - Avraham Ilyayev
+This internship is about for about six months to my understanding, Mike, correct? So that's that there is a good possibility that if you sell and succeed your expectation, you'll have access to salary upon graduation. And that we can hire you on our team well. But far stretch, again, there's so much time before then, there's much that you need to prove. But you know, I, like I don't do, I think, based upon the confirmation that Mike conversations you have with Mike, he's informed me that he is a team that has the experience that you need to do so. The whole point of internships, obviously, is to grow, right. And that's kind of our job is to help you grow and expand upon your skill sets and fortify them, really, and help you develop new skills within the design world. You'll be working alongside some incredible designers that have experience in UI, UX, and graphic. And you get a chance to be a part of this team. So the biggest thing that I want to mention is, and I'm going to put a strong emphasis around, is really communication, commitment, and, of course, C, which is consistency, right? That's kind of the most important thing. Those are the three Cs, our core philosophy in our company. Everything that you do is consistent, right? If you have anything, any issues, work, you're flexible, let us know ahead of time. That's the key. Commitment, everything that you do, you have to be committed with, right? So, you know, do what you say you'll do. If you can't commit to something, understandable, just let us know ahead of time. And consistent communication, right? So communication is the most important thing. We have a tool called Pumble that we use. It serves their internet communication tool. And we have that, you know, here. It's like a Slack knockoff version, if you ever heard of Slack, but it's exactly like Slack. We encourage people to download it on their phones while also downloading it on their, you know, on their computers and different things. And just in case you're traveling or doing what you need to be doing, you'll still be on the and just still be aware of what's happening here. And that's kind of the key.
+
+11:42 - Hamin Lee
+Any questions you have for me or anything else I could do? Let's see. I was just wondering how, for an average, how many hours should I be able to commit for this position?
+
+11:59 - Avraham Ilyayev
+Yeah, excellent question.
+
+12:01 - Mikhail Stepanov
+But yeah, so the idea will be a minimum of 20 hours, of course, but the max that we are looking for would be 40, of course, right? But like we discussed before that, I believe you said 30 hours. 30 hours is a good start at the moment, yeah.
+
+12:20 - Avraham Ilyayev
+I need to go, sorry. Awesome. That's good.
+
+12:23 - Avraham Ilyayev
+So we'll keep in touch. We'll have Mike send you an internship agreement and give you access to all of these tools internally. And we'll take things from there.
+
+12:32 - Hamin Lee
+OK, sounds good. Awesome. It was a pleasure meeting with you.
+
+12:36 - Avraham Ilyayev
+And I'm looking forward to working with you in the foreseeable future. Thank you again.
+
+12:41 - Hamin Lee
+Thank you. It was nice to see you.
+
+12:44 - Unidentified Speaker
+Thank you. Take care.
+
+12:45 - Hamin Lee
+Bye. Bye.

@@ -1,0 +1,43 @@
+name: Pay Period Reminder
+on:
+  schedule:
+    # Run every other Thursday at 9 AM (2 days before period ends on Saturday)
+    # Adjust the schedule based on your pay period cycle
+    - cron: '0 9 */14 * 4'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+      
+      - name: Send pay period reminder
+        env:
+          MESSAGING_PLATFORM: ${{ secrets.MESSAGING_PLATFORM }}
+          KIMAI_URL: ${{ secrets.KIMAI_URL }}
+          KIMAI_API_KEY: ${{ secrets.KIMAI_API_KEY }}
+          PUMBLE_API_KEY: ${{ secrets.PUMBLE_API_KEY }}
+          BOT_IDENTITY: ${{ secrets.BOT_IDENTITY }}
+          BLOODHUNTER_EMAIL: ${{ secrets.BLOODHUNTER_EMAIL }}
+          BLOODHUNTER_ID: ${{ secrets.BLOODHUNTER_ID }}
+          BLOODHUNTER_API_KEY: ${{ secrets.BLOODHUNTER_API_KEY }}
+          AGENTSMITH_EMAIL: ${{ secrets.AGENTSMITH_EMAIL }}
+          AGENTSMITH_ID: ${{ secrets.AGENTSMITH_ID }}
+          AGENTSMITH_API_KEY: ${{ secrets.AGENTSMITH_API_KEY }}
+          DEV_CHANNEL_ID: ${{ secrets.DEV_CHANNEL_ID }}
+          DESIGN_CHANNEL_ID: ${{ secrets.DESIGN_CHANNEL_ID }}
+          REMINDER_DAYS_BEFORE: ${{ secrets.REMINDER_DAYS_BEFORE }}
+        run: |
+          cd scripts
+          node kimai-timesheet-bot.js remind

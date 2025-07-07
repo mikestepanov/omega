@@ -1,0 +1,110 @@
+Mike: Interview with Intern Alex Boshnakov
+Fri, Jun 6, 2025
+
+0:02 - Mikhail Stepanov
+Yeah, let me... Okay, so essentially, it's going to be like a short meeting to essentially discuss about the internship here, right? The idea would be, right, like, So from what I remember, right, you have like a short job position somewhere, right? And also you still in college, right?
+
+0:42 - Unidentified Speaker
+Yeah, that's true.
+
+0:44 - Unidentified Speaker
+Okay.
+
+0:45 - Mikhail Stepanov
+So essentially on the non-college days, I guess weeks, right, how many hours can you take? Can you like dedicate around like 40 hours?
+
+0:58 - Alex Boshnakov
+Yeah, I could do up to 40 hours. It's just I'm always like working on my master's so it would just be a busy like schedule.
+
+1:09 - Mikhail Stepanov
+Okay, what's like on average can you like dedicate?
+
+1:13 - Alex Boshnakov
+On average, I'd be comfortable with 20 hours and then I could go up to 40 but I don't know if that's too short for this position?
+
+1:25 - Mikhail Stepanov
+I think that's fine, right? So as long as like, let's say, on the non-college days, if you can just do maximum or on college weeks, you can just do the 20 hours. I think that should be fine, right? So the goal for you is to just essentially learn the code, right, and learn how are you going to progress further as a developer, right? And of course, right, so the idea would be, so for the six months, they'll be just like you will be just working here for like experience and just for like resume, right? That would be the idea. And yeah, that's pretty much it. I believe like Avraham is a bit busy. OK.
+
+2:21 - Unidentified Speaker
+Yeah, I believe he's just busy at the moment.
+
+2:30 - Mikhail Stepanov
+But essentially, I just want to reiterate, are you OK with six months to just be on Monday?
+
+2:48 - Alex Boshnakov
+Yeah, yeah, that should be fine.
+
+2:52 - Mikhail Stepanov
+Okay, sounds good. After six months, we can re-evaluate potentially. We might be able to provide you some, but it's not guaranteed, of course, right? And based on the commitment as well, right? And now you're also busy with, essentially, Learning like we are you still in college, right? So it'll be a bit more difficult to stay consistent, right? And if you're gonna pay you it's you have to you have to be like super consistent, right? So we can discuss how potentially maybe if you want to stay with us and Just for like for the resume purposes. That's also fine. We can discuss later. Of course, right? No, but yeah, it's Of course, it depends on how much tech consistently you can commit, right?
+
+3:50 - Alex Boshnakov
+That would be the idea. Yeah, sounds good.
+
+3:55 - Mikhail Stepanov
+Okay. So... Yeah, so we have like three Cs essentially in our company. It's like a barrier for everyone to follow, essentially consistency, right? Just basically, every single week should be the same for you. There shouldn't be any huge gaps, right? But of course, you're an intern, so it'll be less strict, of course, for you, right? And also the communication, right? So if you essentially... Also, it won't be that big of a deal for you because we don't expect you much at the moment. So for communication, essentially, if you get stuck, just tell us ahead, right? So, hey, I'm stuck. Don't wait for the meeting to tell us that you essentially got stuck and we couldn't help you because we weren't aware of that, right? That's the idea. I think it looks like Avraham will not be able to join, but I will discuss with him. We might need to move the meeting a bit again. Everyone a second. I would come to school me. Yeah, she will be able to join soon, but basically essentially These are like our pillars of work. Essentially. I wouldn't expect you much at the moment But that's pretty much it.
+
+6:13 - Alex Boshnakov
+Yeah I'm good, Alex.
+
+6:19 - Alex Boshnakov
+How are you? Yeah, I'm doing pretty well.
+
+6:21 - Avraham Ilyayev
+That's good. It's nice to meet you. A lot of wonderful things about you from Mike. Apologies for, for running late. I was stuck doing a little brainstorming. So, uh, lost track of time, but I'm happy to meet with you. I know we only have four minutes left, but, um, Mike, I presume has already spoken a little bit more about the opportunity and what it has to offer. While I'm here in the four minutes that we have, can you give me a little quick little understanding of who you are and what you're doing?
+
+6:56 - Alex Boshnakov
+Yeah, so, um, I'm Alex, I graduated from Penn State last May, and then I started working on a master's for cyber security and information assurance, like in May. And actually, that's something I would like to do maybe something cyber security focus, but my knowledge and topics is pretty wide. I'm a fast learner, so I can pick up on other things. And I guess I would like to expand my programming skills, and that's why I applied for a developer internship. I think it would be a great experience, a good learning experience, and it would be something so that's my resume since I haven't had like any tech industry experience yet. Okay, that's great.
+
+7:49 - Avraham Ilyayev
+Any coding languages that you're familiar with as of the moment?
+
+7:55 - Alex Boshnakov
+Yeah, I'm pretty good with Python. That's probably the one I'm most comfortable with. Then I work with like various libraries there. And then besides Python, I'm pretty up rule with JavaScript and like C++ and C and of course I know a few others but as well like Java and like I guess like MATLAB it's like hardware descriptive languages okay that's awesome no that's great I mean the whole point of this internship is to kind of help expand upon the current skill set that you possess kind of fortified and make it stronger.
+
+8:39 - Avraham Ilyayev
+So that's awesome. That's great. Are you Russian by any chance? You have a Russian last name?
+
+8:45 - Alex Boshnakov
+No, it's close enough.
+
+8:47 - Alex Boshnakov
+I'm Bulgarian. Okay, very nice. Yeah. So I'm like familiar with like the Cyrillic language and stuff like that. Okay, very nice. Very nice.
+
+8:55 - Avraham Ilyayev
+We see a lot of our team is actually European majority of it. So we do have we do have a strong presence in terms of members that come from Europe. Um, so it's good, you know, to kind of work with that. I think I've always said that Europeans have a very, very different class of understanding than You know, Americans and different people from different parts of the world. So that's great. Um, and from a company culture, I think you'll fit in very nicely here, judging from what I've heard about you so far. Uh, how far are you into your studies for masters?
+
+9:29 - Alex Boshnakov
+Uh, I started in May and it's like a self-paced thing where I I just work at my own pace one course at a time. So it's like just constantly I'm thinking I'll finish in like a year. That's what I'm aiming for. I like the end of next April.
+
+9:45 - Avraham Ilyayev
+Gotcha. Okay. And then it will be done with the masters by next April. Yeah. Okay. Cool. Awesome. That sounds good. Um, Mike has told you a little bit about what we do, right? Um, the most important thing is obviously commitment, dedication, and just communication. Um, that's what matters and consistency. Mike has told you a little bit more about that, but the goal is to make sure that everything you do here is very, very consistent. You're committed. You do what you say you'll do. And most importantly, you're able to communicate in a timely manner. We use a tool called Pumble, which I'm sure Mike has told you about. It's like a Slack. If you've ever heard of Slack, who hasn't? But it's like a knockoff version of Slack. And it's awesome. You can download it on your phone, on your computer, and we encourage all of our team members to download it on both. Traveling, doing different things, and we want you to be alert and not miss anything. So if you're not next to your computer, next to your desk, you always can view our messages on your phone. And that's kind of the key. So I think we'll try this out for about, Mike, what is the duration of the internship that we've decided?
+
+10:46 - Mikhail Stepanov
+So at the moment, it's six months. Yes. OK.
+
+10:49 - Avraham Ilyayev
+And then there's a reevaluation potentially. And if you do very, very well here, and we like your work, and you like what you're doing here, we're happy to onboard you and give you with benefits and different things at the moment.
+
+11:02 - Unidentified Speaker
+Okay, sounds good.
+
+11:03 - Mikhail Stepanov
+Thank you, Alex. Yeah, that's pretty much it. I will send you a Pumble invite soon. And yeah, we'll go from there. Thank you. Yeah, that's good. All right. Sounds good. Yeah. All right.
+
+11:19 - Unidentified Speaker
+Thanks.
+
+11:20 - Alex Boshnakov
+Awesome. Nice to meet you, Alex.
+
+11:23 - Avraham Ilyayev
+Thanks again.
+
+11:24 - Avraham Ilyayev
+Yeah, nice meeting you.
+
+11:26 - Avraham Ilyayev
+Take care.
+
+11:28 - Avraham Ilyayev
+Thank you.

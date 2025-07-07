@@ -1,0 +1,128 @@
+{
+  "2025-06": {
+    "main_meeting": null,
+    "prep_meetings": [
+      {
+        "date": "2025-06-13 09:00:00-05:00",
+        "summary": "Dharam: STATUS Demo Prep",
+        "person": "Dharam",
+        "attendees": [
+          "dsdharam91",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-13 09:15:00-05:00",
+        "summary": "Arif: STATUS Demo Prep",
+        "person": "Arif",
+        "attendees": [
+          "arifulbgt4",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-13 09:30:00-05:00",
+        "summary": "Raheel: STATUS Demo Prep",
+        "person": "Raheel",
+        "attendees": [
+          "raheelshahzad036",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-13 09:45:00-05:00",
+        "summary": "Mori: STATUS Demo Prep",
+        "person": "Mori",
+        "attendees": [
+          "wesongamori",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-13 10:00:00-05:00",
+        "summary": "Mohit: STATUS Demo Prep",
+        "person": "Mohit",
+        "attendees": [
+          "mohit.testing1",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-16 09:00:00-05:00",
+        "summary": "Engineering Team: STATUS Demo Prep",
+        "person": "Engineering Team",
+        "attendees": [
+          "mohit.testing1",
+          "dsdharam91",
+          "wesongamori",
+          "arifulbgt4",
+          "raheelshahzad036",
+          "tinisto",
+          "mikhail",
+          "alexbosh42"
+        ]
+      },
+      {
+        "date": "2025-06-20 09:00:00-05:00",
+        "summary": "Edward: STATUS Demo Prep",
+        "person": "Edward",
+        "attendees": [
+          "edelobi",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-20 09:15:00-05:00",
+        "summary": "Yulia: STATUS Demo Prep",
+        "person": "Yulia",
+        "attendees": [
+          "yulia",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-20 09:30:00-05:00",
+        "summary": "Pauline: STATUS Demo Prep",
+        "person": "Pauline",
+        "attendees": [
+          "paulinexpedition",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-20 09:45:00-05:00",
+        "summary": "Hamin: STATUS Demo Prep",
+        "person": "Hamin",
+        "attendees": [
+          "linoe1026",
+          "mikhail"
+        ]
+      },
+      {
+        "date": "2025-06-23 09:00:00-05:00",
+        "summary": "Design Team: STATUS Demo Prep",
+        "person": "Design Team",
+        "attendees": [
+          "yulia",
+          "edelobi",
+          "mikhail",
+          "paulinexpedition",
+          "linoe1026"
+        ]
+      }
+    ],
+    "people_met": [
+      "Arif",
+      "Yulia",
+      "Hamin",
+      "Edward",
+      "Design Team",
+      "Mohit",
+      "Engineering Team",
+      "Pauline",
+      "Raheel",
+      "Mori",
+      "Dharam"
+    ]
+  }
+}
