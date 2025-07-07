@@ -1,15 +1,10 @@
-name: Test Bots
-
-# This workflow creates status checks on commits
+name: Tests
 
 on:
   push:
-    branches:
-      - '**'  # Run on all branches
-    paths:
-      - 'bots/**'
-      - '.github/workflows/test-bots.yml'
-  workflow_dispatch:
+    branches: ['**']
+  pull_request:
+    branches: [main, dev]
 
 jobs:
   test:

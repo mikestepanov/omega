@@ -1,14 +1,10 @@
-name: Bot Quality Checks
+name: Quality Checks
 
 on:
   push:
-    branches:
-      - '**'  # Run on all branches
-    paths:
-      - 'bots/**/*.js'
-      - 'bots/**/*.json'
-      - 'bots/**/*.md'
-  workflow_dispatch:
+    branches: ['**']
+  pull_request:
+    branches: [main, dev]
 
 jobs:
   quality-checks:
