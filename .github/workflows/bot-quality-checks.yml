@@ -6,6 +6,8 @@ on:
       - main
       - dev
       - writing
+      - workflow
+      - '**'  # Run on all branches
     paths:
       - 'bots/**/*.js'
       - 'bots/**/*.json'
