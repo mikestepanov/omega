@@ -3,8 +3,6 @@ name: Quality Checks
 on:
   push:
     branches: ['**']
-  pull_request:
-    branches: [main, dev]
 
 jobs:
   quality-checks:
@@ -40,23 +38,6 @@ jobs:
           NODE_ENV: test
           CI: true
 
-      - name: Run Jest with different configs
-        working-directory: ./bots
-        run: |
-          echo "🧪 Running Jest tests with CI configuration..."
-          npx jest --ci --runInBand --detectOpenHandles
-        env:
-          NODE_ENV: test
-          CI: true
-
-      - name: Check test coverage
-        working-directory: ./bots
-        run: |
-          echo "📊 Checking test coverage..."
-          npx jest --coverage --coverageReporters=text || true
-        env:
-          NODE_ENV: test
-          CI: true
 
       - name: Generate test report
         if: always()
