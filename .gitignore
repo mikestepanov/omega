@@ -1,6 +1,9 @@
 # Claude local settings
 .claude/
 
+# Credentials and secrets
+.credentials/
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -27,6 +30,13 @@ env/
 venv/
 .env
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
 # Logs
 *.log
 logs/
@@ -36,3 +46,6 @@ logs/
 *.temp
 tmp/
 temp/
+
+# Backup files
+*.bak

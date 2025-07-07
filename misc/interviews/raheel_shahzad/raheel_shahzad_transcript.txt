@@ -1,0 +1,146 @@
+Mikhail Stepanov and Avraham Ilyayev
+Wed, May 7, 2025
+
+0:00 - Mikhail Stepanov
+Okay, can you also, I know, can you share your camera?
+
+0:13 - raheel shahzad
+Thank you. Okay.
+
+0:44 - Unidentified Speaker
+Okay.
+
+0:45 - Unidentified Speaker
+Cool.
+
+0:46 - Mikhail Stepanov
+All right.
+
+0:48 - Mikhail Stepanov
+Can you, can you mute one of the, okay.
+
+0:56 - Unidentified Speaker
+Okay.
+
+0:57 - Unidentified Speaker
+Perfect.
+
+0:58 - Mikhail Stepanov
+All right. So just going to have like a short 15 minute intermediate VCO. And yeah, let's talk about commitment, right? So the idea is we are very flexible in terms of hours, right? Of course, but we need to make sure that you're actually consistent with your hours. So let's say you want to work 40 hours, we'll give you 40 hours, right? But we need to make sure that you're within the past three hours range, right? So let's say you said you're going to work 40 hours. So the lowest you can do is 37. And the highest you can do is 43, right? So we just need to make sure that you're consistent, right? Next part is, of course, communication, right? Ideally, of course, I know people are sleeping, people sleep in different time zones, I understand, right? But once you're awake, ideally, you should be able to communicate with everyone within two hours or one hour, ideally, right? So if someone sends you a message, Just make sure you read pummel pummel will be our basically like a cyclone like it'll be good for communication and um next part is of course We uh, you need to stay within uh three hours range for the meeting so let's say of course emergencies can happen but uh, just as long as you're within like three hours of range of like communicating if you're gonna miss the In the meeting, that's okay, right? So if you're going to miss the meeting tomorrow, but you know about it today, make sure you tell us ahead of time, right? That will be the idea. And yeah, that's pretty much it. Hi, Avraham. Hi, Mike.
+
+2:52 - raheel shahzad
+How are you? Hi, Raheel. How are you? I'm good.
+
+2:56 - Avraham Ilyayev
+How are you doing? Good.
+
+2:58 - Unidentified Speaker
+Good.
+
+2:58 - Avraham Ilyayev
+It's nice to see you. To meet you. Where are you calling in from
+
+3:03 - Unidentified Speaker
+I'm from Pakistan.
+
+3:04 - Unidentified Speaker
+Pakistan.
+
+3:04 - Unidentified Speaker
+Okay, very nice.
+
+3:05 - Unidentified Speaker
+That's great.
+
+3:05 - Avraham Ilyayev
+Mike is based in, we're based in the US, but he's in Minnesota. I'm based in Florida. But it's nice, nice to meet you. Want to take some time, I only have about, unfortunately, 12 minutes for my next call, but I want to take some time to learn more about you. I've heard a lot of great things about you from Mike, and kind of just some points before we get you started. So the floor is yours.
+
+3:33 - raheel shahzad
+Tell me a little bit about yourself. Okay, my name is... I have seven plus years of experience in different technologies like...
+
+3:44 - Mikhail Stepanov
+Can you just, I don't know, increase the audio volume by like 15% or so?
+
+3:51 - raheel shahzad
+Yes. Having trouble hearing as well.
+
+3:54 - raheel shahzad
+Okay. My name is Rohit Sharath. I'm a full stack developer. So, I have a 7 plus 6 experience. So, I've worked on a different stack. So, basically I'm working on the frontend technologies like Angular, React, Next.js, like SOS as well. And also Vue.js. And also I've worked on the backend technology like Nest.js, Node.js. So, basically Okay. That's great to hear.
+
+4:34 - Unidentified Speaker
+And you'll be doing some Right, Mike, for us?
+
+4:49 - raheel shahzad
+Yes, yes. I have already told him about SEO. Gotcha. Okay, that's great.
+
+4:55 - Avraham Ilyayev
+You've done the test task, right, Mike? He's done the test task and he's done well, is my understanding good? Yes. Okay. Mike has given you a little bit of an understanding of kind of Give you a little bit of understanding of the overall process of how we do things internally.
+
+5:22 - Unidentified Speaker
+Yes, yes.
+
+5:23 - Avraham Ilyayev
+So you have an understanding. Commitment's pretty important. It's one of our core pillars. We have three main core pillars. It's consistency, communication, and commitment. As I mentioned, again, everything that you do has to be consistent. Everything that you do has to be committed. You have to be committed. That's the key. Do what you say you'll do and communicate. That's it. We use a really cool tool called Bumble. It's like a Slack. If you ever heard of Slack, virtually indifferent to Slack, it's pretty much the same. So you'll be able to use it. You can download it on your phone. You can download it on your computer, whatever your preference. I recommend that all of our team members download on both because sometimes you may be driving, you may need to answer a message that is time sensitive. So it's iOS. Compatible and also depending on what computer you have, Apple, Mac, whatever, PC, Windows, whatever, Chromebooks, you can do that accordingly as well. Mike, how many hours is Raheel doing?
+
+6:25 - Mikhail Stepanov
+Raheel will do 40 hours total a week. So it's going to be split into packages. The first package is equity package. It'll be for 20 hours. We'll give Raheel a quarter of percent for this. Then for the other 20 hours, this will be on fixed rate for $15 per hour. That will be raised to $20 per hour after the six months, of course, based on the performance. And after the big funding, of course, based on the performance again, we will give Raheel at least from $25 to $40 per hour. And Raheel, I just want double check, right? So like we discussed previously, for everyone, including you, we'll be paying on the gusto. Gusto is a very popular service. We have people working in Pakistan and India. They have zero issues with the payments. You're still okay with this current package and with the current gusto payment, right?
+
+7:30 - Unidentified Speaker
+Okay, sure.
+
+7:31 - raheel shahzad
+Let me check with the The NHY will let you know.
+
+7:36 - Avraham Ilyayev
+Gotcha. Okay. I think it seems reasonable.
+
+7:39 - Unidentified Speaker
+That's good. We use Gusto. We don't use Upwork.
+
+7:43 - Avraham Ilyayev
+Just to let you know, as Mike has mentioned, that's what's important. You don't have any situations that you're going through right now? Medical, family, or anything at the moment that's going to impede you from working for us?
+
+8:01 - Unidentified Speaker
+Okay.
+
+8:02 - Avraham Ilyayev
+I see a little background sign. I think it says welcome, baby.
+
+8:07 - raheel shahzad
+Did you have a kid recently? Four months ago, I have a baby. Congrats.
+
+8:12 - Avraham Ilyayev
+Congratulations. That's amazing. Thank you. May this child bring you a lot of success, happiness, and joy to you and to your family. Good.
+
+8:22 - raheel shahzad
+I'm happy to hear that.
+
+8:24 - Avraham Ilyayev
+Well, I think this sounds good. You seem like a very nice, genuine guy. I'm happy give it a shot, you know, see how you do and kind of work together with you in this process.
+
+8:37 - raheel shahzad
+So when we can do a flag?
+
+8:40 - Avraham Ilyayev
+We can get you started ASAP, right, I think, Mike? We can onboard him to Pumble?
+
+8:46 - Mikhail Stepanov
+Yeah, of course. The first part is I will send Avraham essentially the implement agreement. It will state your equity, it will state your rate. Avraham will review it and will sign it and then after our handlers sign it, we should be able to give it to you to sign as well. Once you will actually sign this document, we should be able to proceed, well, essentially tomorrow, even if it's going to be available. Yeah, so just sign it by end of this week. You can start essentially on Monday, potentially, right? And we'll go from there. Potentially, actually, at the end of our current pay period, right, so not be easier for you if we're going to start on Tuesday, but we can just give you all the accesses before that. So like access to GitHub, access to Pumble, you can do that before it, after, of course, after we sign the document.
+
+9:41 - Unidentified Speaker
+Okay.
+
+9:41 - Avraham Ilyayev
+Sounds like a plan. It was nice to meet you, raheel, and we will speak with you soon. Okay. Thank you. Thank you.
+
+9:48 - Unidentified Speaker
+Thank you again. Have a great day.
+
+9:50 - Avraham Ilyayev
+Talk to you soon. Thank you.
+
+9:52 - Unidentified Speaker
+Bye-bye.
+
+9:52 - Avraham Ilyayev
+Mike, if you can stay on.

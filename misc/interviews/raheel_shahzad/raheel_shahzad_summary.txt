@@ -1,0 +1,33 @@
+Mikhail Stepanov and Avraham Ilyayev
+Wed, May 7, 2025
+
+Summary:
+
+The discussion focused on the onboarding of new team member Raheel Shahzad, a full stack developer with over seven years of experience. Mikhail Stepanov highlighted the importance of commitment, communication, and consistency in work hours for new hires, while Avraham Ilyayev reinforced these values and introduced the communication tool Pumble for team interactions. The payment structure for Raheel was detailed, consisting of a 40-hour work week divided between an equity package and a fixed hourly rate, with opportunities for performance-based increases. The onboarding process is scheduled to commence once the necessary agreements are finalized.
+
+
+Chapters & Topics:
+
+Commitment and Onboarding Discussion
+Mikhail Stepanov highlighted the need for consistency in work hours and effective communication among team members during the onboarding discussion. Raheel Shahzad introduced himself and his technical background, while Avraham Ilyayev reinforced the core values of commitment and communication. The payment structure was clarified, with Raheel set to work 40 hours a week, split between an equity package and a fixed hourly rate.
+* Commitment to work hours and communication expectations.
+* Core values of the company: consistency, communication, and commitment.
+* Onboarding process and access to tools.
+
+
+Action Items:
+
+* Raheel Shahzad will sign the implementation agreement by the end of the week to proceed with onboarding.
+* Mikhail Stepanov will send the implementation agreement to Avraham Ilyayev for review and signature.
+* Mikhail Stepanov will provide Raheel Shahzad with access to GitHub and Pumble after the implementation agreement is signed.
+
+
+Key Questions:
+
+* What is the payment structure for Raheel Shahzad?
+* Is Raheel Shahzad okay with the current payment package?
+
+
+Notepad:
+
+* No notes

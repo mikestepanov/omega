@@ -1,0 +1,99 @@
+/* -------------------------------------------------------------------------- */
+/* BASE FONT TOKENS                                                           */
+/* -------------------------------------------------------------------------- */
+@mixin sds-theme-base-font-tokens {
+  /* Font Sizes */
+  --font-size-tiny: 8px;
+  --font-size-xx-small: 10px;
+  --font-size-x-small: 12px;
+  --font-size-small: 14px;
+  --font-size-small-medium: 16px;
+  --font-size-medium-small: 18px;
+  --font-size-medium: 20px;
+  --font-size-medium-large: 24px;
+  --font-size-large: 28px;
+  --font-size-x-large: 36px;
+  --font-size-xx-large: 48px;
+  --font-size-xxx-large: 64px;
+
+  /* Skeleton Font Sizes */
+  --font-size-skeleton-tiny: 8px;
+  --font-size-skeleton-xx-small: 10px;
+  --font-size-skeleton-x-small: 12px;
+  --font-size-skeleton-small: 14px;
+  --font-size-skeleton-small-medium: 16px;
+  --font-size-skeleton-medium-small: 18px;
+  --font-size-skeleton-medium: 18px;
+  --font-size-skeleton-medium-large: 22px;
+  --font-size-skeleton-large: 26px;
+  --font-size-skeleton-x-large: 33px;
+  --font-size-skeleton-xx-large: 45px;
+  --font-size-skeleton-xxx-large: 59px;
+
+  /* Reduced skeleton sizes (commented out for testing) */
+  /* --font-size-skeleton-tiny: 6px;        /* font-size: 8px */
+  /* --font-size-skeleton-xx-small: 7px;    /* font-size: 10px */
+  /* --font-size-skeleton-x-small: 8px;     /* font-size: 12px */
+  /* --font-size-skeleton-small: 10px;      /* font-size: 14px */
+  /* --font-size-skeleton-small-medium: 11px; /* font-size: 16px */
+  /* --font-size-skeleton-medium-small: 12px; /* font-size: 18px */
+  /* --font-size-skeleton-medium: 14px;     /* font-size: 20px */
+  /* --font-size-skeleton-medium-large: 16px; /* font-size: 24px */
+  /* --font-size-skeleton-large: 18px;      /* font-size: 28px */
+  /* --font-size-skeleton-x-large: 24px;    /* font-size: 36px */
+  /* --font-size-skeleton-xx-large: 32px;   /* font-size: 48px */
+  /* --font-size-skeleton-xxx-large: 40px;  /* font-size: 64px */
+
+  /* Letter Spacing */
+  --letter-spacing-tightest: -0.8px;
+  --letter-spacing-tight: -0.4px;
+  --letter-spacing-default: 0px;
+
+  /* Line Heights */
+  --line-height-xxx-small: 7px;
+  --line-height-xx-small: 11px;
+  --line-height-x-small: 14px;
+  --line-height-small: 15px;
+  --line-height-regular-small: 16px;
+  --line-height-regular: 20px;
+  --line-height-medium: 24px;
+  --line-height-large: 30px;
+  --line-height-x-large: 32px;
+  --line-height-xx-large: 48px;
+  --line-height-xxx-large: 64px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* DESKTOP FONT TOKENS                                                        */
+/* -------------------------------------------------------------------------- */
+@mixin sds-theme-desktop-font-tokens {
+  @include sds-theme-base-font-tokens;
+}
+
+/* -------------------------------------------------------------------------- */
+/* TABLET FONT TOKENS                                                         */
+/* -------------------------------------------------------------------------- */
+@mixin sds-theme-tablet-font-tokens {
+  @include sds-theme-base-font-tokens;
+
+  /* Note: Skeleton heights now use actual font-size and line-height variables directly */
+}
+
+/* -------------------------------------------------------------------------- */
+/* MOBILE FONT TOKENS                                                         */
+/* -------------------------------------------------------------------------- */
+@mixin sds-theme-mobile-font-tokens {
+  @include sds-theme-base-font-tokens;
+
+  /* Regular Font Size Overrides */
+  --font-size-medium-large: 20px;
+  --font-size-x-large: 32px;
+  --font-size-xx-large: 32px;
+  --font-size-xxx-large: 36px;
+
+  /* Note: Skeleton heights now use actual font-size and line-height variables directly */
+
+  /* Line Height Overrides */
+  --line-height-xx-large: 36px;
+  --line-height-xxx-large: 36px;
+}

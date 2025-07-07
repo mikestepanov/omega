@@ -1,0 +1,42 @@
+Mikhail Stepanov and Avraham Ilyayev
+Fri, May 16, 2025
+
+Summary:
+
+The discussion centered on Eng Mori Isaac Wesonga's candidacy for the DELPS engineering position, with Mikhail Stepanov detailing the compensation structure that includes equity and hourly wages. Mori highlighted his extensive experience in DevOps and cloud architecture, totaling nine years in software engineering. Avraham Ilyayev emphasized the company's core values of consistency, commitment, and communication, stressing the importance of clear communication and personal accountability within the team.
+
+He acknowledged Mori's professionalism and the positive feedback from Stepanov regarding his test task, expressing confidence in his potential contributions. Ilyayev also promoted an open-door policy for team members and addressed Mori's inquiry about stand-up calls, explaining the planned structure for these meetings, which will occur every third Monday, along with additional weekly meetings as needed. The conversation concluded with optimistic remarks about future collaboration within the team.
+
+
+Chapters & Topics:
+
+Introduction of Candidate for DELPS Engineering Position
+Mikhail Stepanov presented Eng Mori Isaac Wesonga as a candidate for the DELPS engineering position, detailing a compensation package that includes equity and hourly pay. Mori, who has nearly nine years of experience in software engineering, discussed his professional background. Avraham Ilyayev emphasized the importance of consistency, commitment, and communication within the company culture.
+* Candidate introduction and background
+* Communication tools and practices
+
+Team Dynamics and Candidate Evaluation
+Avraham Ilyayev highlighted the complementary roles he and Mikhail Stepanov play in their team, with Ilyayev being more strict and Stepanov more flexible. He stressed that success is determined by individual effort and transparency, encouraging the candidate to take charge of their own career path. Ilyayev also praised the candidate's professionalism and expressed optimism about their potential collaboration.
+* Job expectations and responsibilities
+
+Stand-Up Meetings and Team Communication
+Avraham Ilyayev encouraged team members to communicate openly and seek assistance as needed. Mikhail Stepanov detailed the scheduling of stand-up meetings, indicating that they would occur every third Monday and potentially more frequently as the team grows. He also mentioned the option for one-on-one meetings and FIRES meetings for startup-related issues.
+* Stand-up meeting schedule
+
+
+Action Items:
+
+* Mikhail Stepanov will discuss the details of stand-up calls with Eng Mori Isaac Wesonga.
+* Avraham Ilyayev will ensure that Eng Mori Isaac Wesonga is informed about the communication tools used in the company.
+* Mikhail Stepanov will conduct a one-to-one meeting with Eng Mori Isaac Wesonga on Fridays.
+
+
+Key Questions:
+
+* What is the current package being offered for the DELPS engineering position?
+* What are the expectations regarding communication and commitment in the company?
+
+
+Notepad:
+
+* No notes
