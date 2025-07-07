@@ -1,5 +1,7 @@
 name: Test Bots
 
+# This workflow creates status checks on commits
+
 on:
   push:
     branches:
